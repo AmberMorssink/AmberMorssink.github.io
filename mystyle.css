@@ -8,6 +8,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #333333;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 ul li {
