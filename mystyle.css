@@ -65,31 +65,31 @@ body {
 }
 
 h1 {
-  color:#111111;
-  text-align:center;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:#111111; /*Dit bepaalt de kleur van mijn tekst*/
+  text-align:center; /*Dit laat mijn tekst in het midden (center) staan*/
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*Hiermee bepaal je het lettertype*/
 }
 
 
 h2 {
-  color:#111111;
-  text-align:center;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:#111111; /*Dit bepaalt de kleur van mijn tekst*/
+  text-align:center; /*Dit zorgt ervoor dat mijn tekst in het midden (center) gaat staan.*/
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*Hiermee bepaal je het lettertype*/
 }
 
 p {
-  margin-top: 0px;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  margin-top: 0px; /*Dit zorgt voor geen extra ruimte boven de tekst*/
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif /*Hiermee bepaal je het lettertype*/
 }
 
 h3 {
   margin-bottom: 0px; /*Dit zorgt voor geen ruimte onder de koptekst*/
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif /*Hiermee bepaal je het lettertype*/
 }
 
 h4 {
   margin-bottom: 0px;  /*Dit zorgt voor geen ruimte onder de koptekst*/
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif /*Hiermee bepaal je het lettertype*/
 }
 
 
