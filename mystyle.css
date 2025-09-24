@@ -139,9 +139,9 @@ footer {
 }
 
 .computerlink:link, .computerlink:visited {
-  background-color: #000000;
-  color: white;
-  border: 2px whitesmoke;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: 2px rgb(255, 240, 254);
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
@@ -149,6 +149,6 @@ footer {
 }
 
 .computerlink:hover, .computerlink:active {
-  background-color: rgb(255, 177, 241);
+  background-color: rgb(86, 0, 70);
   color:white;
 }
