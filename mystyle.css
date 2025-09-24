@@ -1,10 +1,5 @@
-head { /*Dit is het element voor head*/
-
-}
-
-
 body {  
-  background-color:rgb(248, 226, 237);
+  background-color:rgb(248, 226, 237); /* Hiermee bepaal ik de achtergrond kleur van mijn pagina's.*/
 }
 
 .navbar {
