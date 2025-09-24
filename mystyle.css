@@ -149,6 +149,6 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
-  background-color: hotpink;
+  background-color: rgb(255, 177, 241);
   color:white;
 }
