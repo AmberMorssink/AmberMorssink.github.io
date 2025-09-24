@@ -118,3 +118,9 @@ h4 {
   flex: 2;
 }
 
+.tekstinmidden {
+  text-align: center;
+  margin:auto;
+  width:fit-content;
+}
+
