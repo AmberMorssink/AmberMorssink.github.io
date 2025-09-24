@@ -1,3 +1,8 @@
+head { /*Dit is het element voor head*/
+
+}
+
+
 body {  
   background-color:rgb(248, 226, 237);
 }
@@ -92,6 +97,6 @@ h4 {
 img {
   display: block;
   margin: auto;
-  height: 250px;
+  height: 300px;
   width: 50%;
 }
