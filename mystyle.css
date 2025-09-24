@@ -131,4 +131,9 @@ footer {
 .RGB-pagina {
   background-image: url("RGB.webp");
   color:white;
+  
+}
+
+.RGB-pagina h1 {
+  color: white;
 }
