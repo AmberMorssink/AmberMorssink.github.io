@@ -100,3 +100,13 @@ img {
   height: 300px;
   width: 40%;
 }
+
+.plaatjemettekst {
+  display: flex;
+  align-items: center;
+}
+
+.plaatjemettekst img {
+  margin-left: 10px;
+  width: 100px;
+}
