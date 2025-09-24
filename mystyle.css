@@ -94,12 +94,6 @@ h4 {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
-img {
-  display: block;
-  margin: auto;
-  height: 300px;
-  width: 40%;
-}
 
 .plaatje {
   float: right;
