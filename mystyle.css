@@ -149,6 +149,6 @@ footer {
 }
 
 .computerlink:hover, .computerlink:active {
-  background-color: rgb(86, 0, 70);
+  background-color: rgba(180, 17, 147, 0.438);
   color:white;
 }
