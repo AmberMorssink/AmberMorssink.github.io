@@ -120,9 +120,9 @@ h4 {
   width:fit-content;
 }
 
-footer {
+.mijnfooter {
   background-color: #343434;
-  padding: 8px;
+  padding: 13px; /*Dit zorgt voor ruimte tussen de tekst en de rand.*/
   text-align: center;
   color:white;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
