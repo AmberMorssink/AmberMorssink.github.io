@@ -78,6 +78,7 @@ h2 {
 }
 
 p {
+  margin-top: 3px;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
@@ -103,9 +104,9 @@ h4 {
 }
 
 .plaatje img{
-  width: 600px; /*Hiermee pas ik de breedte van mijn plaatje aan*/
+  width: 600px; /*Dit past de breedte, ofterwel width van mijn plaatje aan.*/
   max-width: 100%;
-  height: 400px; /*Hiermee pas ik de hoogte van mijn plaatje aan*/
+  height: 400px; /*Dit past de hoogte, ofterwel height van mijn plaatje aan.*/
 }
 
 
