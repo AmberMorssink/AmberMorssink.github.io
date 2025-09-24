@@ -120,3 +120,9 @@ h4 {
   width:fit-content;
 }
 
+footer {
+  background-color: #4d4d4d;
+  padding: 10px;
+  text-align: center;
+  color:white
+}
