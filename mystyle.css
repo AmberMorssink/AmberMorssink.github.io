@@ -138,17 +138,19 @@ footer {
   color: white;
 }
 
-.computerlink:link, .computerlink:visited {
-  background-color: #ffffff;
-  color: rgb(0, 0, 0);
-  border: 2px rgb(255, 240, 254);
+.computerlink:link, .computerlink:visited { 
+  background-color: #ffffff; /*Dit is de kleur van mijn knopje die je ziet zonder dat je muis erop staat*/
+  color: rgb(0, 0, 0); /*Dit is de kleur van de tekst op mijn knopje die je ziet zonder dat je muis erop staat*/
+  border: 2px rgb(255, 240, 254); /*Dit is de rand om mijn knopje*/
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .computerlink:hover, .computerlink:active {
-  background-color: rgba(180, 17, 147, 0.438);
-  color:white;
+  background-color: rgba(180, 17, 147, 0.438); /*Dit is de kleur van mijn knopje wanneer je er met je muis overheen gaat.*/
+  color:white; /* Dit is de kleur van de tekst op mijn knopje die je ziet als je met je muis op het knopje gaat*/
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
