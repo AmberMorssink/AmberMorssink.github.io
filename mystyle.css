@@ -101,12 +101,15 @@ img {
   width: 40%;
 }
 
-.plaatjemettekst {
-  display: flex;
-  align-items: center;
+.plaatje {
+  float: right;
+  margin-left: 15px;
+  width: 150px;
 }
 
-.plaatjemettekst img {
-  margin-left: 10px;
-  width: 100px;
+.tekst {
+  max-width: 600px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  line-height: 1,6;
 }
+
