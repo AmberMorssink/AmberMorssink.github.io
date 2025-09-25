@@ -156,12 +156,6 @@ h4 {
 }
 
 .plaatjeRGB {
-  position:relative;
-}
-
-.RGBtekst {
-  position:absolute
-  bottom: 8px;
-  left: 12px;
-  font-size: 20px
+  width: 100px;
+  height: 100px;
 }
