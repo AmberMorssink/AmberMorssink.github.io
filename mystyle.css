@@ -110,6 +110,8 @@ h4 {
 }
 
 .turquoise img{
+  float: right;
+  margin-left: 15px;
   width: 200px;
   height: 300px;
 }
