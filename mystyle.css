@@ -120,6 +120,11 @@ h4 {
   width:fit-content;
 }
 
+.plaatjeRGB {
+  width: 10px;
+  height: 10px;
+}
+
 .mijnfooter {
   background-color: #343434;
   padding: 13px; /*Dit zorgt voor ruimte tussen de tekst en de rand.*/
@@ -153,9 +158,4 @@ h4 {
   background-color: rgba(180, 17, 147, 0.438); /*Dit is de kleur van mijn knopje wanneer je er met je muis overheen gaat.*/
   color:white; /* Dit is de kleur van de tekst op mijn knopje die je ziet als je met je muis op het knopje gaat*/
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.plaatjeRGB {
-  width: 10px;
-  height: 10px;
 }
