@@ -129,13 +129,13 @@ h4 {
 }
 
 .RGB-pagina {
-  background-image: url("RGB.webp");
-  color:white;
+  background-image: url("RGB.webp"); /*Dit is de afbeelding die op de achtergrond van mijn pagina komt.*/
+  color:white; /*Dit is de kleur die alle tekst krijgt op de pagina.*/
   
 }
 
 .RGB-pagina h1 {
-  color: white;
+  color: white; /*Dit is de kleur die de koptekst krijgt*/
 }
 
 .computerlink:link, .computerlink:visited { 
@@ -143,7 +143,7 @@ h4 {
   color: rgb(0, 0, 0); /*Dit is de kleur van de tekst op mijn knopje die je ziet zonder dat je muis erop staat*/
   border: 2px rgb(255, 240, 254); /*Dit is de rand om mijn knopje*/
   padding: 10px 20px;
-  text-align: center;
+  text-align: center; /*Dit zorgt ervoor dat de tekst in het midden komt te staan*/
   text-decoration: none;
   display: inline-block;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -156,6 +156,6 @@ h4 {
 }
 
 .plaatjeRGB {
-  width: 100px;
-  height: 100px;
+  width: 10px;
+  height: 10px;
 }
