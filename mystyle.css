@@ -11,7 +11,7 @@ body {
 .navbar a {
   float: left;
   font-size: 16px;
-  color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255); /*Dit is de kleur van mijn tekst van het menu*/
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
