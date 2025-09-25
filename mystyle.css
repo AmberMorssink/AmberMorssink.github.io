@@ -137,7 +137,7 @@ h4 {
 .RGB-pagina {
   background-image: url("RGB.webp"); /*Dit is de afbeelding die op de achtergrond van mijn pagina komt.*/
   color:white; /*Dit is de kleur die alle tekst krijgt op de pagina.*/
-  
+  opacity: 90%;
 }
 
 .RGB-pagina h1 {
