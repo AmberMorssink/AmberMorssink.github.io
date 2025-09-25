@@ -154,3 +154,14 @@ h4 {
   color:white; /* Dit is de kleur van de tekst op mijn knopje die je ziet als je met je muis op het knopje gaat*/
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+.plaatjeRGB {
+  position:relative;
+}
+
+.RGBtekst {
+  position:absolute
+  bottom: 8px;
+  left: 12px;
+  font-size: 20px
+}
