@@ -167,8 +167,9 @@ h4 {
   height: 260px;
 }
 
-.compressie-vs{
+.compressie-vs img{
   float: right;
+  margin-left: 15px;
   height: 100px;
   width: 100px;
 }
