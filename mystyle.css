@@ -168,6 +168,8 @@ h4 {
 }
 
 .compressie-vs{
+  float: right;
+  margin-right: 15px;
   height: 200;
   width: 200;
 }
