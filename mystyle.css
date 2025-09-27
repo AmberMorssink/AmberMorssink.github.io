@@ -163,13 +163,13 @@ h4 {
 .verschil-compressie img{
   float: right;
   margin-left: 15px;
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 260px;
 }
 
 .compressie-vs{
   float: right;
   margin-right: 15px;
-  height: 200;
-  width: 200;
+  height: 200px;
+  width: 200px;
 }
