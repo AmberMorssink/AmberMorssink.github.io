@@ -10,7 +10,7 @@ body {
 
 .navbar a, .dropbtn {
   flex: 1; /*Verdeelt de menu items gelijkmatig over de totale breedte van het menu*/
-  font-size: 16px; /* De grootte van mijn text*/
+  font-size: 18px; /* De grootte van mijn text*/
   color: rgb(255, 255, 255); /*Dit is de kleur van mijn tekst van het menu*/
   text-align: center; /* Dit zorgt ervoor dat de tekst in het midden komt te staan*/
   padding: 14px 16px;
@@ -58,7 +58,7 @@ body {
   text-decoration: none;
   display: block;
   text-align: center;
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
