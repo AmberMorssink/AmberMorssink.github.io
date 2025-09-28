@@ -15,7 +15,7 @@ body {
   color: rgb(255, 255, 255); /*Dit is de kleur van mijn tekst van het menu*/
   text-align: center; /* Dit zorgt ervoor dat de tekst in het midden komt te staan*/
   padding: 14px 16px;
-  text-decoration: none;
+  text-decoration: none; /*Zorgt ervoor dat de tekst niet onderstreept wordt*/
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif /*dit is het lettertype*/
 }
 
@@ -50,7 +50,7 @@ body {
 .dropdown-content a {
   float: none;
   color: rgb(255, 255, 255);
-  padding: 12px 16px;
+  padding: 14px 16px;
   text-decoration: none;
   display: block;
   text-align: center;
@@ -102,8 +102,8 @@ img {
 }
 
 .binair-spel{
-  width:700px;
-  height:500px;
+  width:700px; /*Dit is de breedte van het spel*/
+  height:500px; /*Dit is de hoogte van het spel*/
   display:block; /*Dit zorgt ervoor dat margin auto werkt*/
   margin-left: auto; /*Dit zorgt ervoor dat het in het midden staat*/
   margin-right: auto; /*Dit zorgt ervoor dat het in het midden staat*/
@@ -135,15 +135,15 @@ img {
 .CMYK-plaatje img{
   float:right; /*Dit zorgt ervoor dat het plaatje rechts naast de tekst staat*/
   margin-left: 15px; /*Dit zorgt voor 15 pixels ruimte aan de linkerkant*/
-  width: 200px; /*Dit past de breedte, ofterwel width van mijn plaatje aan.*/
-  height: 200px; /*Dit past de hoogte, ofterwel height van mijn plaatje aan.*/
+  width: 400px; /*Dit past de breedte, ofterwel width van mijn plaatje aan.*/
+  height: 270px; /*Dit past de hoogte, ofterwel height van mijn plaatje aan.*/
 }
 
 .RGB-model img{
   float:right; /*Dit zorgt ervoor dat het plaatje rechts naast de tekst staat*/
   margin-left: 15px; /*Dit zorgt voor 15pixels ruimte aan de linkerkant*/
-  width: 200px; /*Dit past de breedte, ofterwel width van mijn plaatje aan.*/
-  height: 200px; /*Dit past de hoogte, ofterwel height van mijn plaatje aan.*/
+  width: 400px; /*Dit past de breedte, ofterwel width van mijn plaatje aan.*/
+  height: 270px; /*Dit past de hoogte, ofterwel height van mijn plaatje aan.*/
 }
 
 .tekst {
