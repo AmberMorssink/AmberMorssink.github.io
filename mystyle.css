@@ -79,12 +79,10 @@ h2 {
 
 p {
   margin-top: 0px; /*Dit zorgt voor geen extra ruimte boven de tekst*/
-  padding: 20px;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif /*Hiermee bepaal je het lettertype*/
 }
 
 h3 {
-  padding: 20px;
   margin-bottom: 0px; /*Dit zorgt voor geen ruimte onder de koptekst*/
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif /*Hiermee bepaal je het lettertype*/
 }
@@ -94,6 +92,9 @@ h4 {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif /*Hiermee bepaal je het lettertype*/
 }
 
+.content{
+  padding: 20px;
+}
 
 .container{
   display: flex;
