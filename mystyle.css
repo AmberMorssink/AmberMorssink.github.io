@@ -84,6 +84,7 @@ p {
 }
 
 h3 {
+  padding: 20px;
   margin-bottom: 0px; /*Dit zorgt voor geen ruimte onder de koptekst*/
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif /*Hiermee bepaal je het lettertype*/
 }
