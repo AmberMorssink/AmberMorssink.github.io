@@ -139,6 +139,13 @@ img {
   height: 300px;
 }
 
+.RGB-model img{
+  float:right;
+  margin-left: 15px;
+  width: 300px;
+  height: 300px;
+}
+
 .tekst {
   flex: 2;
 }
