@@ -93,7 +93,8 @@ h4 {
 }
 
 .content{
-  padding: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .container{
