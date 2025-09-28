@@ -129,9 +129,9 @@ h4 {
 .mijnfooter {
   background-color: #343434;
   padding: 13px; /*Dit zorgt voor ruimte tussen de tekst en de rand.*/
-  text-align: center;
-  color:white;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center; /*Dit zorgt ervoor dat de tekst in het midden (center) staat*/
+  color:white; /*Dit is de kleur van de tekst*/
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*Dit is het lettertype (font) van de tekst*/
 }
 
 .RGB-pagina {
@@ -141,7 +141,11 @@ h4 {
 
 .binairstelsel-pagina {
   background-image: url(Binair\ achtergrond.webp);
-  color:white;
+  color:white; /*Dit is de kleur die alle tekst krijgt op de pagina*/
+}
+
+.binairstelsel-pagina h1 {
+  color: white; /*Dit is de kleur die de koptekst krijgt.*/
 }
 
 .RGB-pagina h1 {
