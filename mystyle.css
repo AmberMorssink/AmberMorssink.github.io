@@ -6,17 +6,19 @@ body {
   display: flex;
   overflow: hidden;
   background-color: #343434;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif /*dit is het lettertype*/
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*dit is het lettertype*/
 }
 
-.navbar a {
+.navbar a, .dropbtn {
   flex: 1; /*Verdeelt de menu items gelijkmatig over de totale breedte van het menu*/
   font-size: 16px; /* De grootte van mijn text*/
   color: rgb(255, 255, 255); /*Dit is de kleur van mijn tekst van het menu*/
   text-align: center; /* Dit zorgt ervoor dat de tekst in het midden komt te staan*/
   padding: 14px 16px;
   text-decoration: none; /*Zorgt ervoor dat de tekst niet onderstreept wordt*/
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif /*dit is het lettertype*/
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*dit is het lettertype*/
+  display: block;
+  
 }
 
 .dropdown {
@@ -48,6 +50,7 @@ body {
   min-width: 100%;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  flex-direction: column;
 }
 
 .dropdown-content a {
@@ -65,7 +68,7 @@ body {
 }
 
 .dropdown:hover .dropdown-content {
-  display: block;
+  display: flex;
 }
 
 h1 {
