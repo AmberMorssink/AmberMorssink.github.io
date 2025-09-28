@@ -131,7 +131,7 @@ img {
   float: right; /*Dit zorgt ervoor dat het plaatje rechts naast de tekst staat*/
   margin-left: 15px; /*Dit zorgt voor 15pixels ruimte aan de linkerkant*/
   width: 300px; /*Dit past de breedte, ofterwel width van mijn plaatje aan.*/
-  height: 270px; /*Dit past de hoogte, ofterwel height van mijn plaatje aan.*/
+  height: 200px; /*Dit past de hoogte, ofterwel height van mijn plaatje aan.*/
 }
 
 .CMYK-plaatje img{
@@ -145,7 +145,7 @@ img {
   float:right; /*Dit zorgt ervoor dat het plaatje rechts naast de tekst staat*/
   margin-left: 15px; /*Dit zorgt voor 15pixels ruimte aan de linkerkant*/
   width: 300px; /*Dit past de breedte, ofterwel width van mijn plaatje aan.*/
-  height: 270px; /*Dit past de hoogte, ofterwel height van mijn plaatje aan.*/
+  height: 200px; /*Dit past de hoogte, ofterwel height van mijn plaatje aan.*/
 }
 
 .tekst {
