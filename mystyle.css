@@ -142,6 +142,7 @@ h4 {
 .binairstelsel-pagina {
   background-image: url(Binair\ achtergrond.webp);
   color:white; /*Dit is de kleur die alle tekst krijgt op de pagina*/
+  padding: 20px;
 }
 
 .binairstelsel-pagina h1 {
@@ -193,7 +194,7 @@ h4 {
 .lijst-binair img{
   float: right;
   margin-left: 15px;
-  height: 220px;
+  height: 240px;
   width: 300px;
 }
 
