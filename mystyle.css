@@ -83,7 +83,7 @@ p {
 }
 
 h3 {
-  margin-bottom: 0px; /*Dit zorgt voor geen ruimte onder de koptekst*/
+  margin-bottom: 5px; /*Dit zorgt voor wat ruimte onder de koptekst*/
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif /*Hiermee bepaal je het lettertype*/
 }
 
@@ -93,16 +93,16 @@ h4 {
 }
 
 .content{
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 20px; /*Dit zorgt voor 20px ruimte links tussen de rand van het scherm en de tekst/alle inhoud in deze class*/
+  padding-right: 20px; /*Dit zorgt voor 20px ruimte rechts tussen de rand van het scherm en de tekst/inhoud*/
 }
 
 .binair-spel{
   width:700px;
   height:500px;
-  display:block;
-  margin-left: auto;
-  margin-right: auto;
+  display:block; /*Dit zorgt ervoor dat margin auto werkt*/
+  margin-left: auto; /*Dit zorgt ervoor dat het in het midden staat*/
+  margin-right: auto; /*Dit zorgt ervoor dat het in het midden staat*/
 }
 
 .container{
