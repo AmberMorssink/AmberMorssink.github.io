@@ -79,6 +79,7 @@ h2 {
 
 p {
   margin-top: 0px; /*Dit zorgt voor geen extra ruimte boven de tekst*/
+  padding: 20px;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif /*Hiermee bepaal je het lettertype*/
 }
 
@@ -142,7 +143,6 @@ h4 {
 .binairstelsel-pagina {
   background-image: url(Binair\ achtergrond.webp);
   color:white; /*Dit is de kleur die alle tekst krijgt op de pagina*/
-  padding: 20px;
 }
 
 .binairstelsel-pagina h1 {
