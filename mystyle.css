@@ -54,6 +54,8 @@ body {
   text-decoration: none;
   display: block;
   text-align: center;
+  font-size: 16px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .dropdown-content a:hover {
@@ -128,21 +130,21 @@ img {
 .RGB-afbeeldingen img{
   float: right; /*Dit zorgt ervoor dat het plaatje rechts naast de tekst staat*/
   margin-left: 15px; /*Dit zorgt voor 15pixels ruimte aan de linkerkant*/
-  width: 400px; /*Dit past de breedte, ofterwel width van mijn plaatje aan.*/
+  width: 300px; /*Dit past de breedte, ofterwel width van mijn plaatje aan.*/
   height: 270px; /*Dit past de hoogte, ofterwel height van mijn plaatje aan.*/
 }
 
 .CMYK-plaatje img{
   float:right; /*Dit zorgt ervoor dat het plaatje rechts naast de tekst staat*/
   margin-left: 15px; /*Dit zorgt voor 15 pixels ruimte aan de linkerkant*/
-  width: 400px; /*Dit past de breedte, ofterwel width van mijn plaatje aan.*/
+  width: 300px; /*Dit past de breedte, ofterwel width van mijn plaatje aan.*/
   height: 270px; /*Dit past de hoogte, ofterwel height van mijn plaatje aan.*/
 }
 
 .RGB-model img{
   float:right; /*Dit zorgt ervoor dat het plaatje rechts naast de tekst staat*/
   margin-left: 15px; /*Dit zorgt voor 15pixels ruimte aan de linkerkant*/
-  width: 400px; /*Dit past de breedte, ofterwel width van mijn plaatje aan.*/
+  width: 300px; /*Dit past de breedte, ofterwel width van mijn plaatje aan.*/
   height: 270px; /*Dit past de hoogte, ofterwel height van mijn plaatje aan.*/
 }
 
