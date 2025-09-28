@@ -21,7 +21,7 @@ body {
 
 .dropdown {
   overflow: hidden;
-  position: relative;
+  position: absolute;
 }
 
 .dropdown .dropbtn {
