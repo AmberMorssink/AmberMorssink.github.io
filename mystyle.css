@@ -3,14 +3,15 @@ body {
 }
 
 .navbar {
+  display: flex;
   overflow: hidden;
   background-color: #343434;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif /*dit is het lettertype*/
 }
 
 .navbar a {
-  float: left;
-  font-size: 16px;
+  flex: 1; /*Verdeelt de menu items gelijkmatig over de totale breedte van het menu*/
+  font-size: 16px; /* De grootte van mijn text*/
   color: rgb(255, 255, 255); /*Dit is de kleur van mijn tekst van het menu*/
   text-align: center; /* Dit zorgt ervoor dat de tekst in het midden komt te staan*/
   padding: 14px 16px;
@@ -19,7 +20,6 @@ body {
 }
 
 .dropdown {
-  float: left;
   overflow: hidden;
 }
 
@@ -98,7 +98,7 @@ h4 {
 }
 
 img {
-  border-radius: 8px;
+  border-radius: 8px;/*Zorgt ervoor dat de hoeken van mijn afbeeldingen rond zijn*/
 }
 
 .binair-spel{
@@ -126,24 +126,24 @@ img {
 }
 
 .RGB-afbeeldingen img{
-  float: right;
-  margin-left: 15px;
-  width: 400px;
-  height: 300px;
+  float: right; /*Dit zorgt ervoor dat het plaatje rechts naast de tekst staat*/
+  margin-left: 15px; /*Dit zorgt voor 15pixels ruimte aan de linkerkant*/
+  width: 200px; /*Dit past de breedte, ofterwel width van mijn plaatje aan.*/
+  height: 200px; /*Dit past de hoogte, ofterwel height van mijn plaatje aan.*/
 }
 
 .CMYK-plaatje img{
-  float:right;
-  margin-left: 15px;
-  width: 200px;
-  height: 200px;
+  float:right; /*Dit zorgt ervoor dat het plaatje rechts naast de tekst staat*/
+  margin-left: 15px; /*Dit zorgt voor 15 pixels ruimte aan de linkerkant*/
+  width: 200px; /*Dit past de breedte, ofterwel width van mijn plaatje aan.*/
+  height: 200px; /*Dit past de hoogte, ofterwel height van mijn plaatje aan.*/
 }
 
 .RGB-model img{
-  float:right;
-  margin-left: 15px;
-  width: 200px;
-  height: 200px;
+  float:right; /*Dit zorgt ervoor dat het plaatje rechts naast de tekst staat*/
+  margin-left: 15px; /*Dit zorgt voor 15pixels ruimte aan de linkerkant*/
+  width: 200px; /*Dit past de breedte, ofterwel width van mijn plaatje aan.*/
+  height: 200px; /*Dit past de hoogte, ofterwel height van mijn plaatje aan.*/
 }
 
 .tekst {
@@ -157,7 +157,7 @@ img {
 }
 
 .mijnfooter {
-  background-color: #343434;
+  background-color: #343434; /* Dit is de achtergrond kleur van mijn footer*/
   padding: 13px; /*Dit zorgt voor ruimte tussen de tekst en de rand.*/
   text-align: center; /*Dit zorgt ervoor dat de tekst in het midden (center) staat*/
   color:white; /*Dit is de kleur van de tekst*/
@@ -170,7 +170,7 @@ img {
 }
 
 .binairstelsel-pagina {
-  background-image: url(Binair\ achtergrond.webp);
+  background-image: url(Binair\ achtergrond.webp); /*Dit is de achtergrond afbeelding van de pagina*/
   color:white; /*Dit is de kleur die alle tekst krijgt op de pagina*/
 }
 
@@ -189,47 +189,47 @@ img {
   padding: 10px 20px;
   text-align: center; /*Dit zorgt ervoor dat de tekst in het midden komt te staan*/
   text-decoration: none;
-  display: inline-block;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: inline-block; /* Staat naast andere elementen, als een blok*/
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*Dit is het lettertype (font)*/
 }
 
 .computerlink:hover, .computerlink:active {
   background-color: rgba(180, 17, 147, 0.438); /*Dit is de kleur van mijn knopje wanneer je er met je muis overheen gaat.*/
   color:white; /* Dit is de kleur van de tekst op mijn knopje die je ziet als je met je muis op het knopje gaat*/
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*Dit is het lettertype (font)*/
 }
 
 .verschil-compressie img{
-  float: right;
-  margin-left: 15px;
-  width: 350px;
-  height: 260px;
+  float: right; /*Dit zorgt ervoor dat mijn plaatje rechts naast mijn tekst staat*/
+  margin-left: 15px; /*Dit zorgt voor 15pixels ruimte aan de linkerkant*/
+  width: 350px; /*Dit is de breedte van mijn plaatje*/
+  height: 260px; /*Dit is de hoogte van mijn plaatje*/
 }
 
 .compressie-vs img{
-  float: right;
-  margin-left: 15px;
-  height: 260px;
-  width: 250px;
+  float: right; /*Dit zorgt ervoor dat mijn plaatje rechts naast mijn tekst staat*/
+  margin-left: 15px; /*Dit zorgt voor 15 pixels ruimte aan de linkerkant*/
+  height: 260px; /*Dit is de hoogte van mijn plaatje*/
+  width: 250px; /*Dit is de breedte van mijn plaatje*/
 }
 
 .bitmap-vector img{
-  float: right;
-  margin-left: 15px;
-  height: 200px;
-  width: 300px;
+  float: right; /*Dit zorgt ervoor dat mijn plaatje rechts naast mijn tekst staat*/
+  margin-left: 15px; /*Dit zorgt voor 15pixels ruimte aan de linkerkant*/
+  height: 200px; /*Dit is de hoogte van mijn plaatje*/
+  width: 300px; /*Dit is de breedte van mijn plaatje*/
 }
 
 .lijst-binair img{
-  float: right;
-  margin-left: 15px;
-  height: 240px;
-  width: 300px;
+  float: right; /*Dit zorgt ervoor dat mijn plaatje rechts naast mijn tekst staat*/
+  margin-left: 15px; /*Dit zorgt voor 15  pixels ruimte aan de linkerkant*/
+  height: 240px; /*Dit is de hoogte van mijn plaatje*/
+  width: 300px; /*Dit is de breedte van mijn plaatje*/
 }
 
 .ASCII-tabel img{
-  float: right;
-  margin-left: 15px;
-  height: 300px;
-  width: 300px;
+  float: right; /*Dit zorgt ervoor dat mijn plaatje rechts naast mijn tekst staat*/
+  margin-left: 15px; /*Dit zorgt voor 15 pixels ruimte aan de linkerkant*/
+  height: 300px; /*Dit is de hoogte van mijn plaatje*/
+  width: 300px; /*Dit is de breedte van mijn plaatje*/
 }
