@@ -154,13 +154,13 @@ img { /*dit past stylen op alle afbeeldingen toe, in dit geval dat alle hoeken r
 }
 
 .spotify-netflix {
-  display: flex;
-  gap: 40px;
+  display: flex; /*Dit zet de plaatjes naast elkaar*/
+  gap: 40px; /*Dit is de ruimte tussen de afbeeldingen*/
   margin-top: 30px;
 }
 
 .spotify-netflix img {
-  width: 250px;
+  width: 250px; /*Dit is de breedte*/
   height: auto;
 }
 
