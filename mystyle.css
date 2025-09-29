@@ -355,3 +355,23 @@ img {
   color:rgb(0, 0, 0);
   background-color: rgb(65, 195, 182);
 }
+
+.rood {
+  color: red;
+}
+
+.blauw {
+  color: blue;
+}
+
+.oranje {
+  color: orange;
+}
+
+.magenta {
+  color: magenta;
+}
+
+.grijs {
+  color: grey;
+}
