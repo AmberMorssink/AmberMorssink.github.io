@@ -242,7 +242,7 @@ img {
 
 .border {
 border-radius: 10px; 
-background-color: rgba(0, 0, 255, 0.253); 
+background-color: rgba(255, 0, 251, 0.253); 
 padding: 20px; 
-width: 200px;  
+width: 800px;  
 }
