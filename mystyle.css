@@ -162,7 +162,7 @@ img { /*dit past stylen op alle afbeeldingen toe, in dit geval dat alle hoeken r
 spotify img {
   display: flex;
   width: 100px;
-  height: 200px;
+  height: 100px;
 }
 
 
