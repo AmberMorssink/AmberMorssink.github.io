@@ -2,76 +2,76 @@ body {
   background-color:rgb(255, 238, 251); /* Hiermee bepaal ik de achtergrond kleur van mijn pagina's.*/
 }
 
-.navbar {
-  display: flex;
+.navbar { /*Dit is een aparte class om een element te stylen*/
+  display: flex; /*dit zet elementen goed naast elkaar*/
   border-radius: 10px; /*Dit maakt de randen van mijn menu rond.*/
   background-color: rgba(251, 255, 182, 0.791); /*Dit is de kleur van mijn menu - niet het dropdown gedeelte*/
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*dit is het lettertype*/
 }
 
-.navbar a, .dropbtn {
+.navbar a, .dropbtn { /*Dit is een aparte class om een element te stylen*/
   flex: 1; /*Verdeelt de menu items gelijkmatig over de totale breedte van het menu*/
   font-size: 18px; /* De grootte van mijn text*/
   color: rgb(255, 178, 236); /*Dit is de kleur van mijn tekst van het menu*/
   text-align: center; /* Dit zorgt ervoor dat de tekst in het midden komt te staan*/
-  padding: 14px 16px;
+  padding: 14px 16px; /*Dit is de ruimte binnen een element, de afstand*/
   text-decoration: none; /*Zorgt ervoor dat de tekst niet onderstreept wordt*/
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*Dit is het lettertype*/
-  display: block;
+  display: block; /*maakt een element een blok*/
   font-weight: bold; /*Dit maakt mijn text dikgedrukt.*/
   border-radius: 8px; /*Dit maakt de randen van mijn menu rond.*/
 }
 
-.dropdown {
-  flex: 1;
-  position: relative;
+.dropdown { /*Dit is een aparte class om een element te stylen*/
+  flex: 1; /*ruimte goed verdelen*/
+  position: relative; /*zorgt ervoor dat een element blijft staan waar het is*/
 }
 
-.dropdown .dropbtn {
-  width: 100%;
+.dropdown .dropbtn { /*Dit is een aparte class om een element te stylen*/
+  width: 100%; /*dit is de breedte*/
   font-size: 18px;  /*De grootte van mijn tekst*/
-  border: none;
-  outline: none;
+  border: none; /*dit verwijdert de rand*/
+  outline: none; /*dit verwijdert outlines*/
   color: rgb(255, 178, 236); /*De kleur van mijn tekst*/
-  padding: 14px 16px;
-  background-color: inherit;
+  padding: 14px 16px; /*dit is de ruimte binnen een element, de afstand*/
+  background-color: inherit; /*dit zorgt ervoor dat de achtergrondkleur wordt overgenomen van een ander element*/
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*Ditis het lettertype*/
-  margin: 0;
-  font-weight: bold;
+  margin: 0; /*dit is ruimte om het element, dus margin 0 verwijdert die ruimte.*/
+  font-weight: bold; /*dit maakt de tekst dikgedrukt*/
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: rgba(225, 227, 177, 0.713);
+.navbar a:hover, .dropdown:hover .dropbtn { /*Dit is een aparte class om een element te stylen*/
+  background-color: rgba(225, 227, 177, 0.713); /*dit is de achtergrondkleur*/
 }
 
-.dropdown-content {
-  display: none;
+.dropdown-content { /*Dit is een aparte class om een element te stylen*/
+  display: none; /*element neemt geen ruimte in*/
   position: absolute; /*Zorgt voor geen extra ruimte*/
-  background-color: rgba(251, 255, 182, 0.791);
-  width: 100%;
-  z-index: 1;
-  flex-direction: column;
-  top: 100%;
-  left: 0;
+  background-color: rgba(251, 255, 182, 0.791); /*dit is de achtergrondkleur*/
+  width: 100%; /*dit is de breedte*/
+  z-index: 1; /*zorgt ervoor dat het element boven andere elementen wordt geplaatst met een lager getal*/
+  flex-direction: column; /*zorgt ervoor dat de elementen onder elkaar gaan staan*/
+  top: 100%; /*verplaatst het element naar beneden*/
+  left: 0; /*dit bepaalt de positie van een element*/
 }
 
-.dropdown-content a {
+.dropdown-content a { /*Dit is een aparte class om een element te stylen*/
   color: rgb(255, 178, 236); /*De kleur van mijn tekst*/
-  padding: 14px 16px;
+  padding: 14px 16px; /*dit is de ruimte binnen een element, de afstand*/
   text-decoration: none; /*Dit zorgt ervoor dat de tekst/linkje naar de pagina niet onderstreept wordt*/
-  display: block;
+  display: block; /*maakt een element een blok*/
   text-align: center; /*Dit laat de tekst in het midden staan*/
   font-size: 18px; /*De grootte van mijn tekst*/
   border-radius: 8px; /*Dit maakt de randen van mijn menu rond.*/
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*dit is het lettertype*/
 }
 
-.dropdown-content a:hover {
-  background-color: rgba(225, 227, 177, 0.713);
+.dropdown-content a:hover { /*Dit is een aparte class om een element te stylen*/
+  background-color: rgba(225, 227, 177, 0.713); /*dit is de achtergrondkleur*/
 }
 
-.dropdown:hover .dropdown-content {
-  display: flex;
+.dropdown:hover .dropdown-content { /*Dit is een aparte class om een element te stylen*/
+  display: flex; /*dit zet elementen goed naast elkaar*/
 }
 
 h1 {
@@ -102,16 +102,16 @@ h4 {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif /*Hiermee bepaal je het lettertype*/
 }
 
-.content{
+.content{ /*Dit is een aparte class om een element te stylen*/
   padding-left: 20px; /*Dit zorgt voor 20px ruimte links tussen de rand van het scherm en de tekst/alle inhoud in deze class*/
   padding-right: 20px; /*Dit zorgt voor 20px ruimte rechts tussen de rand van het scherm en de tekst/inhoud*/
 }
 
-img {
+img { /*dit past stylen op alle afbeeldingen toe, in dit geval dat alle hoeken rond zijn*/
   border-radius: 8px;/*Zorgt ervoor dat de hoeken van mijn afbeeldingen rond zijn*/
 }
 
-.binair-spel{
+.binair-spel{ /*Dit is een aparte class om een element te stylen*/
   width:700px; /*Dit is de breedte van het spel*/
   height:500px; /*Dit is de hoogte van het spel*/
   display:block; /*Dit zorgt ervoor dat margin auto werkt*/
@@ -119,41 +119,41 @@ img {
   margin-right: auto; /*Dit zorgt ervoor dat het in het midden staat*/
 }
 
-.plaatje-invoeruitvoer img{
+.plaatje-invoeruitvoer img{ /*Dit is een aparte class om een afbeelding te stylen*/
   float: right; /*Dit zorgt ervoor dat het plaatje rechts naast de tekst staat*/
   margin-left: 15px; /*Dit zorgt voor 15pixels ruimte aan de linkerkant*/
   width: 300px; /*Dit past de breedte, ofterwel width van mijn plaatje aan.*/
   height: 300px; /*Dit past de hoogte, ofterwel height van mijn plaatje aan.*/
 }
 
-.RGB-afbeeldingen img{
+.RGB-afbeeldingen img{ /*Dit is een aparte class om een afbeelding te stylen*/
   float: right; /*Dit zorgt ervoor dat het plaatje rechts naast de tekst staat*/
   margin-left: 15px; /*Dit zorgt voor 15pixels ruimte aan de linkerkant*/
   width: 300px; /*Dit past de breedte, ofterwel width van mijn plaatje aan.*/
   height: 200px; /*Dit past de hoogte, ofterwel height van mijn plaatje aan.*/
 }
 
-.CMYK-plaatje img{
+.CMYK-plaatje img{ /*Dit is een aparte class om een afbeelding te stylen*/
   float:right; /*Dit zorgt ervoor dat het plaatje rechts naast de tekst staat*/
   margin-left: 15px; /*Dit zorgt voor 15 pixels ruimte aan de linkerkant*/
   width: 300px; /*Dit past de breedte, ofterwel width van mijn plaatje aan.*/
   height: 270px; /*Dit past de hoogte, ofterwel height van mijn plaatje aan.*/
 }
 
-.RGB-model img{
+.RGB-model img{ /*Dit is een aparte class om een afbeelding te stylen*/
   float:right; /*Dit zorgt ervoor dat het plaatje rechts naast de tekst staat*/
   margin-left: 15px; /*Dit zorgt voor 15pixels ruimte aan de linkerkant*/
   width: 300px; /*Dit past de breedte, ofterwel width van mijn plaatje aan.*/
   height: 200px; /*Dit past de hoogte, ofterwel height van mijn plaatje aan.*/
 }
 
-.tekstinmidden {
+.tekstinmidden { /*Dit is een aparte class om een element te stylen*/
   text-align: center; /*Dit zorgt ervoor dat mijn text en linkje in het midden, ofterwel center staan.*/
   margin:auto;
   width:fit-content;
 }
 
-.mijnfooter {
+.mijnfooter { /*Dit is een aparte class om een element te stylen*/
   background-color: rgba(251, 255, 182, 0.791); /* Dit is de achtergrond kleur van mijn footer*/
   padding: 13px; /*Dit zorgt voor ruimte tussen de tekst en de rand.*/
   text-align: center; /*Dit zorgt ervoor dat de tekst in het midden (center) staat*/
@@ -163,21 +163,21 @@ img {
   font-weight: bold; /*Dit maakt mijn text dikgedrukt.*/
 }
 
-.RGB-pagina {
+.RGB-pagina { /*Dit is een aparte class om een element te stylen*/
   background-image: url("RGB.webp"); /*Dit is de afbeelding die op de achtergrond van mijn pagina komt.*/
   color:white; /*Dit is de kleur die alle tekst krijgt op de pagina.*/
 }
 
-.binairstelsel-pagina {
+.binairstelsel-pagina { /*Dit is een aparte class om een element te stylen*/
  background-image: url(Binair-achtergrond.webp);/*Dit is de achtergrond afbeelding van de pagina*/
 }
 
 
-.RGB-pagina h1 {
+.RGB-pagina h1 { /*Dit is een aparte class om een element te stylen*/
   color: white; /*Dit is de kleur die de koptekst krijgt*/
 }
 
-.computerlink:link, .computerlink:visited { 
+.computerlink:link, .computerlink:visited { /*Dit is een aparte class om een element te stylen*/
   background-color: rgba(180, 17, 147, 0.438); /*Dit is de kleur van mijn knopje die je ziet zonder dat je muis erop staat*/
   color: rgb(255, 199, 248); /*Dit is de kleur van de tekst op mijn knopje die je ziet zonder dat je muis erop staat*/
   border: 2px rgb(255, 240, 254); /*Dit is de rand om mijn knopje*/
@@ -190,7 +190,7 @@ img {
   font-weight: bold; /*Dit maakt mijn text dikgedrukt.*/
 }
 
-.computerlink:hover, .computerlink:active {
+.computerlink:hover, .computerlink:active { /*Dit is een aparte class om een element te stylen*/
   background-color: rgba(255, 255, 255, 0.438); /*Dit is de kleur van mijn knopje wanneer je er met je muis overheen gaat.*/
   color:rgb(255, 199, 248); /* Dit is de kleur van de tekst op mijn knopje die je ziet als je met je muis op het knopje gaat*/
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*Dit is het lettertype (font)*/
@@ -233,7 +233,7 @@ img {
   width: 300px; /*Dit is de breedte van mijn plaatje*/
 }
 
-.content p {
+.content p { /*Dit is een aparte class om een element te stylen*/
   border-radius: 10px; /*Dit maakt mijn border rond*/
   background-color: rgba(255, 204, 242, 0.683); /*Dit is de achtergrondkleur van mijn border*/
   width: 920px; /*Dit is de breedte van mijn border om de tekst*/
@@ -241,7 +241,7 @@ img {
   padding: 10px; /*Dit is de ruimte tussen de border en de tekst*/
 }
 
-.content h3 {
+.content h3 { /*Dit is een aparte class om een element te stylen*/
   border-radius: 10px; /*Dit maakt de randen van mijn border rond*/
   background-color: rgba(252, 255, 198, 0.713); /*Dit is de achtergrond kleur van mijn border*/
   box-shadow: 5px 5px 15px rgba(172, 172, 172, 0.2); /*Dit zorgt voor een beetje schaduw effect bij de border*/
@@ -253,125 +253,125 @@ img {
 
 /*Hieronder aangepaste opmaak voor de pagina binair stelsel*/
 
-.binairstelsel-pagina .navbar {
+.binairstelsel-pagina .navbar { /*Dit is een aparte class om een element te stylen*/
   background-color:rgba(0, 133, 133, 0.931);
 }
 
-.binairstelsel-pagina .navbar a, .binairstelsel-pagina .dropbtn {
-  color: black;
+.binairstelsel-pagina .navbar a, .binairstelsel-pagina .dropbtn { /*Dit is een aparte class om een element te stylen*/
+  color: black; /*Dit is de kleur van de tekst*/
 }
 
-.binairstelsel-pagina .navbar a:hover, .binairstelsel-pagina .dropdown:hover .dropbtn {
+.binairstelsel-pagina .navbar a:hover, .binairstelsel-pagina .dropdown:hover .dropbtn { /*Dit is een aparte class om een element te stylen*/
   background-color: rgba(0, 167, 167, 0.931); /*Dit is de kleur van het menu wanneer je er met je muis op gaat*/
 }
 
-.binairstelsel-pagina .dropdown-content {
+.binairstelsel-pagina .dropdown-content { /*Dit is een aparte class om een element te stylen*/
   background-color: rgba(0, 133, 133, 0.931); /*Dit is de kleur van de pagina's onder dropdown*/
 }
 
-.binairstelsel-pagina .dropdown-content a {
-  color: black;
+.binairstelsel-pagina .dropdown-content a { /*Dit is een aparte class om een element te stylen*/
+  color: black; /*Dit is de kleur van de tekst*/
 }
 
-.binairstelsel-pagina .dropdown-content a:hover {
+.binairstelsel-pagina .dropdown-content a:hover { /*Dit is een aparte class om een element te stylen*/
   background-color: rgba(0, 167, 167, 0.931);
 }
 
-.binairstelsel-pagina .content p{
+.binairstelsel-pagina .content p{ /*Dit is een aparte class om een element te stylen*/
   background-color: black;
-  color: rgb(0, 167, 167);
+  color: rgb(0, 167, 167); /*Dit is de kleur van de tekst*/
 }
 
-.binairstelsel-pagina .content h3{
+.binairstelsel-pagina .content h3{ /*Dit is een aparte class om een element te stylen*/
   background-color: rgba(0, 133, 133, 0.931);
-  color: black;
+  color: black; /*Dit is de kleur van de tekst*/
 }
 
-.binairstelsel-pagina h1 {
+.binairstelsel-pagina h1 { /*Dit is een aparte class om een element te stylen*/
   color: rgb(0, 133, 133); /*Dit is de kleur die de koptekst krijgt.*/
   background-color: black;
   text-align: center;
   border-radius: 10px;
 }
 
-.binairstelsel-pagina .mijnfooter {
+.binairstelsel-pagina .mijnfooter { /*Dit is een aparte class om een element te stylen*/
   background-color: rgba(0, 133, 133, 0.931);
-  color: black;
+  color: black; /*Dit is de kleur van de tekst*/
 }
 
 /*Hieronder aangepaste opmaak voor de pagina binair stelsel*/
 
-.RGB-pagina .navbar {
+.RGB-pagina .navbar { /*Dit is een aparte class om een element te stylen*/
   background-color:rgb(64,224,208); /*Dit is de kleur van mijn menu (niet het dropdown gedeelte)*/
 }
 
-.RGB-pagina .navbar a, .RGB-pagina .dropbtn {
+.RGB-pagina .navbar a, .RGB-pagina .dropbtn { /*Dit is een aparte class om een element te stylen*/
   color: black; /*Dit is de kleur van de menu tekst*/
 }
 
-.RGB-pagina .navbar a:hover, .RGB-pagina .dropdown:hover .dropbtn {
+.RGB-pagina .navbar a:hover, .RGB-pagina .dropdown:hover .dropbtn { /*Dit is een aparte class om een element te stylen*/
   background-color: rgb(65, 195, 182); /*Dit is de kleur van het menu wanneer je er met je muis op gaat*/
 }
 
-.RGB-pagina .dropdown-content {
+.RGB-pagina .dropdown-content { /*Dit is een aparte class om een element te stylen*/
   background-color: rgb(64,224,208); /*Dit is de kleur van de pagina's onder dropdown*/
 }
 
-.RGB-pagina .dropdown-content a {
+.RGB-pagina .dropdown-content a { /*Dit is een aparte class om een element te stylen*/
   color: black; /*Dit is de kleur van mijn tekst in het dropdown gedeelte*/
 }
 
-.RGB-pagina .dropdown-content a:hover {
+.RGB-pagina .dropdown-content a:hover { /*Dit is een aparte class om een element te stylen*/
   background-color: rgb(65, 195, 182); /*Dit is de kleur van het dropdown gedeelte wanneer je er met je muis op gaat*/
 }
 
-.RGB-pagina .content p{
+.RGB-pagina .content p{ /*Dit is een aparte class om een element te stylen*/
   background-color: rgba(0, 0, 0, 0.942); /*Dit is de achtergrondkleur van mijn border*/
   color: rgb(208, 208, 208); /*Dit is de kleur van mijn tekst*/
 }
 
-.RGB-pagina .content h3{
+.RGB-pagina .content h3{ /*Dit is een aparte class om een element te stylen*/
   background-color: rgba(0, 0, 0, 0.821); /*Dit is de achtergrondkleur van mijn border*/
   color: rgb(64,224,208) /*Dit is de kleur van mijn tekst*/
 }
 
-.RGB-pagina h1 {
+.RGB-pagina h1 { /*Dit is een aparte class om een element te stylen*/
   color: rgb(64,224,208); /*Dit is de kleur die de koptekst krijgt.*/
   background-color: black;
   text-align: center;
 }
 
-.RGB-pagina .mijnfooter {
+.RGB-pagina .mijnfooter { /*Dit is een aparte class om een element te stylen*/
   background-color: rgb(64,224,208);
-  color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0); /*Dit is de kleur van de tekst*/
 }
 
-.RGB-pagina .computerlink:link, .RGB-pagina .computerlink:visited {
+.RGB-pagina .computerlink:link, .RGB-pagina .computerlink:visited { /*Dit is een aparte class om een element te stylen*/
   background-color: rgb(64,224,208);
-  color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0); /*Dit is de kleur van de tekst*/
 }
   
-.RGB-pagina .computerlink:hover, .RGB-pagina .computerlink:active {
+.RGB-pagina .computerlink:hover, .RGB-pagina .computerlink:active { /*Dit is een aparte class om een element te stylen*/
   color:rgb(0, 0, 0); /*De kleur van de tekst*/
   background-color: rgb(65, 195, 182); /*Dit is de kleur van mijn linkje wanneer je er met je muis op gaat*/
 }
 
-.rood {
-  color: red;
+.rood { /*Dit is een aparte class om een element te stylen*/
+  color: red; /*Dit is de kleur van de tekst*/
 }
 
-.blauw {
-  color: blue;
+.blauw { /*Dit is een aparte class om een element te stylen*/
+  color: blue; /*Dit is de kleur van de tekst*/
 }
 
-.oranje {
-  color: orange;
+.oranje { /*Dit is een aparte class om een element te stylen*/
+  color: orange; /*Dit is de kleur van de tekst*/
 }
 
-.magenta {
-  color: magenta;
+.magenta { /*Dit is een aparte class om een element te stylen*/
+  color: magenta; /*Dit is de kleur van de tekst*/
 }
 
-.grijs {
-  color: grey;
+.grijs { /*Dit is een aparte class om een element te stylen*/
+  color: grey; /*Dit is de kleur van de tekst*/
 }
