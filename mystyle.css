@@ -255,6 +255,28 @@ img {
   color: rgb(255, 178, 236); /*De kleur van mijn tekst*/
 }
 
+/*Hieronder aangepaste opmaak voor de pagina binair stelsel*/
+
 .binairstelsel-pagina .navbar {
-  background-color:rgba(0, 133, 133, 0.698);
+  background-color:rgba(0, 133, 133, 0.931);
+}
+
+.binairstelsel-pagina .navbar a, .binairstelsel-pagina .dropbtn {
+  color: black;
+}
+
+.binairstelsel-pagina .navbar a:hover, .binairstelsel-pagina .dropdown:hover .dropbtn {
+  background-color: rgba(0, 167, 167, 0.931); /*Dit is de kleur van het menu wanneer je er met je muis op gaat*/
+}
+
+.binairstelsel-pagina .dropdown-content {
+  background-color: rgba(0, 133, 133, 0.931); /*Dit is de kleur van de pagina's onder dropdown*/
+}
+
+.binairstelsel-pagina .dropdown-content a {
+  color: black;
+}
+
+.binairstelsel-pagina .dropdown-content a:hover {
+  background-color: rgba(0, 167, 167, 0.931);
 }
