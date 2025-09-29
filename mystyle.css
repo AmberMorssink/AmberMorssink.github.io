@@ -280,3 +280,13 @@ img {
 .binairstelsel-pagina .dropdown-content a:hover {
   background-color: rgba(0, 167, 167, 0.931);
 }
+
+.binairstelsel-pagina .content p{
+  background-color: black;
+  color: rgb(0, 167, 167);
+}
+
+.binairstelsel-pagina .content h3{
+  background-color: rgba(0, 133, 133, 0.931);
+  color: black;
+}
