@@ -239,3 +239,10 @@ img {
   height: 300px; /*Dit is de hoogte van mijn plaatje*/
   width: 300px; /*Dit is de breedte van mijn plaatje*/
 }
+
+.border {
+border-radius: 10px; 
+background-color: rgba(0, 0, 255, 0.5); 
+padding: 20px; 
+width: 200px;  
+}
