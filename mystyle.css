@@ -153,10 +153,16 @@ img { /*dit past stylen op alle afbeeldingen toe, in dit geval dat alle hoeken r
   width:fit-content; /*laat elementen zo breed zijn dat dat de inhoud er normaal inpast*/
 }
 
-.spotify-netflix img {
+.spotify-netflix {
   display: flex;
-  width: 200px;
-  height: 200px;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.spotify-netflix img {
+  width: 250px;
+  height: auto;
 }
 
 
