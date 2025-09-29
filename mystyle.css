@@ -12,7 +12,7 @@ body {
 .navbar a, .dropbtn {
   flex: 1; /*Verdeelt de menu items gelijkmatig over de totale breedte van het menu*/
   font-size: 18px; /* De grootte van mijn text*/
-  color: rgb(0, 0, 0); /*Dit is de kleur van mijn tekst van het menu*/
+  color: rgb(255, 178, 236); /*Dit is de kleur van mijn tekst van het menu*/
   text-align: center; /* Dit zorgt ervoor dat de tekst in het midden komt te staan*/
   padding: 14px 16px;
   text-decoration: none; /*Zorgt ervoor dat de tekst niet onderstreept wordt*/
@@ -32,7 +32,7 @@ body {
   font-size: 18px;  /*De grootte van mijn tekst*/
   border: none;
   outline: none;
-  color: rgb(0, 0, 0); /*De kleur van mijn tekst*/
+  color: rgb(255, 178, 236); /*De kleur van mijn tekst*/
   padding: 14px 16px;
   background-color: inherit;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*Ditis het lettertype*/
@@ -56,7 +56,7 @@ body {
 }
 
 .dropdown-content a {
-  color: rgb(0, 0, 0); /*De kleur van mijn tekst*/
+  color: rgb(255, 178, 236); /*De kleur van mijn tekst*/
   padding: 14px 16px;
   text-decoration: none; /*Dit zorgt ervoor dat de tekst/linkje naar de pagina niet onderstreept wordt*/
   display: block;
@@ -157,7 +157,7 @@ img {
   background-color: rgba(251, 255, 182, 0.791); /* Dit is de achtergrond kleur van mijn footer*/
   padding: 13px; /*Dit zorgt voor ruimte tussen de tekst en de rand.*/
   text-align: center; /*Dit zorgt ervoor dat de tekst in het midden (center) staat*/
-  color:rgb(0, 0, 0); /*Dit is de kleur van de tekst*/
+  color:rgb(255, 178, 236); /*Dit is de kleur van de tekst*/
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*Dit is het lettertype (font) van de tekst*/
   border-radius: 10px; /*Dit maakt de rand van mijn footer rond.*/
   font-weight: bold; /*Dit maakt mijn text dikgedrukt.*/
