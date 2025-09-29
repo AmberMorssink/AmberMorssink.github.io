@@ -291,6 +291,7 @@ img {
   color: rgb(0, 133, 133); /*Dit is de kleur die de koptekst krijgt.*/
   background-color: black;
   text-align: center;
+  border-radius: 10px;
 }
 
 .binairstelsel-pagina .mijnfooter {
