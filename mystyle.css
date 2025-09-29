@@ -326,22 +326,22 @@ img {
 }
 
 .RGB-pagina .content p{
-  background-color: rgba(0, 0, 0, 0.942);
-  color: rgb(166, 166, 166);
+  background-color: rgba(0, 0, 0, 0.942); /*Dit is de achtergrondkleur van mijn border*/
+  color: rgb(208, 208, 208); /*Dit is de kleur van mijn tekst*/
 }
 
 .RGB-pagina .content h3{
-  background-color: rgba(0, 0, 0, 0.821);
-  color: rgb(64,224,208)
+  background-color: rgba(0, 0, 0, 0.821); /*Dit is de achtergrondkleur van mijn border*/
+  color: rgb(64,224,208) /*Dit is de kleur van mijn tekst*/
 }
 
 .RGB-pagina h1 {
-  color: rgba(108, 108, 108, 0.931); /*Dit is de kleur die de koptekst krijgt.*/
+  color: rgb(64,224,208); /*Dit is de kleur die de koptekst krijgt.*/
   background-color: black;
   text-align: center;
 }
 
 .RGB-pagina .mijnfooter {
-  background-color: rgba(108, 108, 108, 0.931);
-  color: black;
+  background-color: rgb(208, 208, 208);
+  color: rgb(64,224,208);
 }
