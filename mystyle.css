@@ -345,3 +345,13 @@ img {
   background-color: rgb(64,224,208);
   color: rgb(0, 0, 0);
 }
+
+.RGB-pagina .computerlink:link, .RGB-pagina .computerlink:visited {
+  background-color: rgb(64,224,208);
+  color: rgb(0, 0, 0);
+}
+  
+.RGB-pagina .computerlink:hover, .RGB-pagina .computerlink:active {
+  color:turquoise;
+  background-color: black;
+}
