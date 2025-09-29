@@ -154,12 +154,14 @@ img { /*dit past stylen op alle afbeeldingen toe, in dit geval dat alle hoeken r
 }
 
 .netflix img {
+  float: left;
   width: 300px;
-  height:200px;
+  height:300px;
 }
 
 spotify img {
-  width: 200px;
+  float: left;
+  width: 150px;
   height: 200px;
 }
 
