@@ -5,7 +5,7 @@ body {
 .navbar {
   display: flex;
   border-radius: 10px; /*Dit maakt de randen van mijn menu rond.*/
-  background-color: rgba(251, 255, 182, 0.791);
+  background-color: rgba(251, 255, 182, 0.791); /*Dit is de kleur van mijn menu - niet het dropdown gedeelte*/
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*dit is het lettertype*/
 }
 
@@ -16,7 +16,7 @@ body {
   text-align: center; /* Dit zorgt ervoor dat de tekst in het midden komt te staan*/
   padding: 14px 16px;
   text-decoration: none; /*Zorgt ervoor dat de tekst niet onderstreept wordt*/
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*dit is het lettertype*/
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*Dit is het lettertype*/
   display: block;
   font-weight: bold; /*Dit maakt mijn text dikgedrukt.*/
   border-radius: 8px; /*Dit maakt de randen van mijn menu rond.*/
@@ -47,7 +47,7 @@ body {
 .dropdown-content {
   display: none;
   position: absolute; /*Zorgt voor geen extra ruimte*/
-  background-color: rgba(252, 255, 198, 0.713);
+  background-color: rgba(251, 255, 182, 0.791);
   width: 100%;
   z-index: 1;
   flex-direction: column;
@@ -167,11 +167,12 @@ img {
 }
 
 .mijnfooter {
-  background-color: #343434; /* Dit is de achtergrond kleur van mijn footer*/
+  background-color: rgba(251, 255, 182, 0.791); /* Dit is de achtergrond kleur van mijn footer*/
   padding: 13px; /*Dit zorgt voor ruimte tussen de tekst en de rand.*/
   text-align: center; /*Dit zorgt ervoor dat de tekst in het midden (center) staat*/
-  color:white; /*Dit is de kleur van de tekst*/
+  color:rgb(0, 0, 0); /*Dit is de kleur van de tekst*/
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*Dit is het lettertype (font) van de tekst*/
+  border-radius: 10px;
 }
 
 .RGB-pagina {
@@ -193,7 +194,7 @@ img {
 }
 
 .computerlink:link, .computerlink:visited { 
-  background-color: #ffffff; /*Dit is de kleur van mijn knopje die je ziet zonder dat je muis erop staat*/
+  background-color: rgba(180, 17, 147, 0.438); /*Dit is de kleur van mijn knopje die je ziet zonder dat je muis erop staat*/
   color: rgb(0, 0, 0); /*Dit is de kleur van de tekst op mijn knopje die je ziet zonder dat je muis erop staat*/
   border: 2px rgb(255, 240, 254); /*Dit is de rand om mijn knopje*/
   padding: 10px 20px;
@@ -201,12 +202,14 @@ img {
   text-decoration: none;
   display: inline-block; /* Staat naast andere elementen, als een blok*/
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*Dit is het lettertype (font)*/
+  border-radius: 10px;
 }
 
 .computerlink:hover, .computerlink:active {
-  background-color: rgba(180, 17, 147, 0.438); /*Dit is de kleur van mijn knopje wanneer je er met je muis overheen gaat.*/
-  color:white; /* Dit is de kleur van de tekst op mijn knopje die je ziet als je met je muis op het knopje gaat*/
+  background-color: rgba(255, 255, 255, 0.438); /*Dit is de kleur van mijn knopje wanneer je er met je muis overheen gaat.*/
+  color:rgb(255, 199, 248); /* Dit is de kleur van de tekst op mijn knopje die je ziet als je met je muis op het knopje gaat*/
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*Dit is het lettertype (font)*/
+  border-radius: 10px;
 }
 
 .verschil-compressie img{
@@ -227,7 +230,7 @@ img {
   float: right; /*Dit zorgt ervoor dat mijn plaatje rechts naast mijn tekst staat*/
   margin-left: 15px; /*Dit zorgt voor 15pixels ruimte aan de linkerkant*/
   height: 200px; /*Dit is de hoogte van mijn plaatje*/
-  width: 300px; /*Dit is de breedte van mijn plaatje*/
+  width: 350px; /*Dit is de breedte van mijn plaatje*/
 }
 
 .lijst-binair img{
