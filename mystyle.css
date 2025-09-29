@@ -251,7 +251,8 @@ img {
 .content h3 {
   border-radius: 10px;
   background-color: rgba(247, 250, 179, 0.814);
-  width: 920px;
   box-shadow: 5px 5px 15px rgba(172, 172, 172, 0.2);
   padding: 10px;
+  display: inline-block;
+  width: auto;
 }
