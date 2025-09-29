@@ -119,19 +119,10 @@ img {
   margin-right: auto; /*Dit zorgt ervoor dat het in het midden staat*/
 }
 
-.container{
-  display: flex;
-  align-items: flex-start;
-  gap: 20px;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-  gap: 40px;
-}
-
-.plaatje img{
+.plaatje-invoer-uitvoer img{
+  float: right; /*Dit zorgt ervoor dat het plaatje rechts naast de tekst staat*/
+  margin-left: 15px; /*Dit zorgt voor 15pixels ruimte aan de linkerkant*/
   width: 300px; /*Dit past de breedte, ofterwel width van mijn plaatje aan.*/
-  max-width: 100%;
   height: 300px; /*Dit past de hoogte, ofterwel height van mijn plaatje aan.*/
 }
 
@@ -154,10 +145,6 @@ img {
   margin-left: 15px; /*Dit zorgt voor 15pixels ruimte aan de linkerkant*/
   width: 300px; /*Dit past de breedte, ofterwel width van mijn plaatje aan.*/
   height: 200px; /*Dit past de hoogte, ofterwel height van mijn plaatje aan.*/
-}
-
-.tekst {
-  flex: 2;
 }
 
 .tekstinmidden {
