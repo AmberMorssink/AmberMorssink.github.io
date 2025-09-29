@@ -302,7 +302,7 @@ img {
 /*Hieronder aangepaste opmaak voor de pagina binair stelsel*/
 
 .RGB-pagina .navbar {
-  background-color:rgba(108, 108, 108, 0.931); /*Dit is de kleur van mijn menu (niet het dropdown gedeelte)*/
+  background-color:rgb(64,224,208); /*Dit is de kleur van mijn menu (niet het dropdown gedeelte)*/
 }
 
 .RGB-pagina .navbar a, .RGB-pagina .dropbtn {
@@ -310,11 +310,11 @@ img {
 }
 
 .RGB-pagina .navbar a:hover, .RGB-pagina .dropdown:hover .dropbtn {
-  background-color: rgba(166, 166, 166, 0.931); /*Dit is de kleur van het menu wanneer je er met je muis op gaat*/
+  background-color: rgb(65, 195, 182); /*Dit is de kleur van het menu wanneer je er met je muis op gaat*/
 }
 
 .RGB-pagina .dropdown-content {
-  background-color: rgba(108, 108, 108, 0.931); /*Dit is de kleur van de pagina's onder dropdown*/
+  background-color: rgb(64,224,208); /*Dit is de kleur van de pagina's onder dropdown*/
 }
 
 .RGB-pagina .dropdown-content a {
@@ -322,7 +322,7 @@ img {
 }
 
 .RGB-pagina .dropdown-content a:hover {
-  background-color: rgba(166, 166, 166, 0.931); /*Dit is de kleur van het dropdown gedeelte wanneer je er met je muis op gaat*/
+  background-color: rgb(65, 195, 182); /*Dit is de kleur van het dropdown gedeelte wanneer je er met je muis op gaat*/
 }
 
 .RGB-pagina .content p{
