@@ -17,7 +17,7 @@ body {
   text-decoration: none; /*Zorgt ervoor dat de tekst niet onderstreept wordt*/
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*dit is het lettertype*/
   display: block;
-  
+  font-weight: bold; /*Dit maakt mijn text dikgedrukt.*/
 }
 
 .dropdown {
@@ -35,6 +35,7 @@ body {
   background-color: inherit;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   margin: 0;
+  font-weight: bold;
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
