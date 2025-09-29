@@ -29,13 +29,13 @@ body {
 
 .dropdown .dropbtn {
   width: 100%;
-  font-size: 18px;  
+  font-size: 18px;  /*De grootte van mijn tekst*/
   border: none;
   outline: none;
-  color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0); /*De kleur van mijn tekst*/
   padding: 14px 16px;
   background-color: inherit;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*Ditis het lettertype*/
   margin: 0;
   font-weight: bold;
 }
@@ -56,12 +56,12 @@ body {
 }
 
 .dropdown-content a {
-  color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0); /*De kleur van mijn tekst*/
   padding: 14px 16px;
-  text-decoration: none;
+  text-decoration: none; /*Dit zorgt ervoor dat de tekst/linkje naar de pagina niet onderstreept wordt*/
   display: block;
-  text-align: center;
-  font-size: 18px;
+  text-align: center; /*Dit laat de tekst in het midden staan*/
+  font-size: 18px; /*De grootte van mijn tekst*/
   border-radius: 8px; /*Dit maakt de randen van mijn menu rond.*/
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -172,7 +172,8 @@ img {
   text-align: center; /*Dit zorgt ervoor dat de tekst in het midden (center) staat*/
   color:rgb(0, 0, 0); /*Dit is de kleur van de tekst*/
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*Dit is het lettertype (font) van de tekst*/
-  border-radius: 10px;
+  border-radius: 10px; /*Dit maakt de rand van mijn footer rond.*/
+  font-weight: bold; /*Dit maakt mijn text dikgedrukt.*/
 }
 
 .RGB-pagina {
@@ -199,17 +200,19 @@ img {
   border: 2px rgb(255, 240, 254); /*Dit is de rand om mijn knopje*/
   padding: 10px 20px;
   text-align: center; /*Dit zorgt ervoor dat de tekst in het midden komt te staan*/
-  text-decoration: none;
+  text-decoration: none; /*Dit zorgt ervoor dat de het linkje niet onderstreept wordt*/
   display: inline-block; /* Staat naast andere elementen, als een blok*/
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*Dit is het lettertype (font)*/
-  border-radius: 10px;
+  border-radius: 10px; /*Dit maakt de rand van mijn linkje rond*/
+  font-weight: bold; /*Dit maakt mijn text dikgedrukt.*/
 }
 
 .computerlink:hover, .computerlink:active {
   background-color: rgba(255, 255, 255, 0.438); /*Dit is de kleur van mijn knopje wanneer je er met je muis overheen gaat.*/
   color:rgb(255, 199, 248); /* Dit is de kleur van de tekst op mijn knopje die je ziet als je met je muis op het knopje gaat*/
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*Dit is het lettertype (font)*/
-  border-radius: 10px;
+  border-radius: 10px; /*Dit maakt de rand van mijn linkje rond*/
+  font-weight: bold; /*Dit maakt mijn text dikgedrukt*/
 }
 
 .verschil-compressie img{
@@ -248,11 +251,11 @@ img {
 }
 
 .content p {
-  border-radius: 10px;
-  background-color: rgba(255, 204, 242, 0.683);
-  width: 920px;
-  box-shadow: 5px 5px 15px rgba(172, 172, 172, 0.2);
-  padding: 10px;
+  border-radius: 10px; /*Dit maakt mijn border rond*/
+  background-color: rgba(255, 204, 242, 0.683); /*Dit is de achtergrondkleur van mijn border*/
+  width: 920px; /*Dit is de breedte van mijn border om de tekst*/
+  box-shadow: 5px 5px 15px rgba(172, 172, 172, 0.2); /*Dit is de schaduw die om de border zit*/
+  padding: 10px; /*Dit is de ruimte tussen de border en de tekst*/
 }
 
 .content h3 {
@@ -262,5 +265,5 @@ img {
   padding: 10px; /*Dit zorgt voor wat ruimte tussen de border en de tekst*/
   display: inline-block; /*Dit zorgt ervoor dat de breedte van mijn border niet groter wordt dan de tekst, dus geen ruimte overlaat*/
   width: auto;
-  color: rgb(255, 191, 239);
+  color: rgb(255, 191, 239); /*De kleur van mijn tekst*/
 }
