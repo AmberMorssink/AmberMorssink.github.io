@@ -149,8 +149,8 @@ img { /*dit past stylen op alle afbeeldingen toe, in dit geval dat alle hoeken r
 
 .tekstinmidden { /*Dit is een aparte class om een element te stylen*/
   text-align: center; /*Dit zorgt ervoor dat mijn text en linkje in het midden, ofterwel center staan.*/
-  margin:auto;
-  width:fit-content;
+  margin:auto; /*laat het in het midden staan en gelijke ruimte aan beide kanten*/
+  width:fit-content; /*laat elementen zo breed zijn dat dat de inhoud er normaal inpast*/
 }
 
 .mijnfooter { /*Dit is een aparte class om een element te stylen*/
@@ -181,7 +181,7 @@ img { /*dit past stylen op alle afbeeldingen toe, in dit geval dat alle hoeken r
   background-color: rgba(180, 17, 147, 0.438); /*Dit is de kleur van mijn knopje die je ziet zonder dat je muis erop staat*/
   color: rgb(255, 199, 248); /*Dit is de kleur van de tekst op mijn knopje die je ziet zonder dat je muis erop staat*/
   border: 2px rgb(255, 240, 254); /*Dit is de rand om mijn knopje*/
-  padding: 10px 20px;
+  padding: 10px 20px; /*dit is de ruimte binnen een element, de afstand*/
   text-align: center; /*Dit zorgt ervoor dat de tekst in het midden komt te staan*/
   text-decoration: none; /*Dit zorgt ervoor dat de het linkje niet onderstreept wordt*/
   display: inline-block; /* Staat naast andere elementen, als een blok*/
@@ -198,35 +198,35 @@ img { /*dit past stylen op alle afbeeldingen toe, in dit geval dat alle hoeken r
   font-weight: bold; /*Dit maakt mijn text dikgedrukt*/
 }
 
-.verschil-compressie img{
+.verschil-compressie img{ /*Dit is een aparte class om een afbeelding te stylen*/
   float: right; /*Dit zorgt ervoor dat mijn plaatje rechts naast mijn tekst staat*/
   margin-left: 15px; /*Dit zorgt voor 15pixels ruimte aan de linkerkant*/
   width: 350px; /*Dit is de breedte van mijn plaatje*/
   height: 260px; /*Dit is de hoogte van mijn plaatje*/
 }
 
-.compressie-vs img{
+.compressie-vs img{ /*Dit is een aparte class om een afbeelding te stylen*/
   float: right; /*Dit zorgt ervoor dat mijn plaatje rechts naast mijn tekst staat*/
   margin-left: 15px; /*Dit zorgt voor 15 pixels ruimte aan de linkerkant*/
   height: 260px; /*Dit is de hoogte van mijn plaatje*/
   width: 250px; /*Dit is de breedte van mijn plaatje*/
 }
 
-.bitmap-vector img{
+.bitmap-vector img{ /*Dit is een aparte class om een afbeelding te stylen*/
   float: right; /*Dit zorgt ervoor dat mijn plaatje rechts naast mijn tekst staat*/
   margin-left: 15px; /*Dit zorgt voor 15pixels ruimte aan de linkerkant*/
   height: 200px; /*Dit is de hoogte van mijn plaatje*/
   width: 350px; /*Dit is de breedte van mijn plaatje*/
 }
 
-.lijst-binair img{
+.lijst-binair img{ /*Dit is een aparte class om een afbeelding te stylen*/
   float: right; /*Dit zorgt ervoor dat mijn plaatje rechts naast mijn tekst staat*/
   margin-left: 15px; /*Dit zorgt voor 15  pixels ruimte aan de linkerkant*/
   height: 370px; /*Dit is de hoogte van mijn plaatje*/
   width: 300px; /*Dit is de breedte van mijn plaatje*/
 }
 
-.ASCII-tabel img{
+.ASCII-tabel img{ /*Dit is een aparte class om een afbeelding te stylen*/
   float: right; /*Dit zorgt ervoor dat mijn plaatje rechts naast mijn tekst staat*/
   margin-left: 15px; /*Dit zorgt voor 15 pixels ruimte aan de linkerkant*/
   height: 300px; /*Dit is de hoogte van mijn plaatje*/
@@ -247,7 +247,7 @@ img { /*dit past stylen op alle afbeeldingen toe, in dit geval dat alle hoeken r
   box-shadow: 5px 5px 15px rgba(172, 172, 172, 0.2); /*Dit zorgt voor een beetje schaduw effect bij de border*/
   padding: 10px; /*Dit zorgt voor wat ruimte tussen de border en de tekst*/
   display: inline-block; /*Dit zorgt ervoor dat de breedte van mijn border niet groter wordt dan de tekst, dus geen ruimte overlaat*/
-  width: auto;
+  width: auto; /*breedte wordt bepaald aan de hand van de inhoud*/
   color: rgb(254, 179, 235); /*De kleur van mijn tekst*/
 }
 
@@ -274,28 +274,28 @@ img { /*dit past stylen op alle afbeeldingen toe, in dit geval dat alle hoeken r
 }
 
 .binairstelsel-pagina .dropdown-content a:hover { /*Dit is een aparte class om een element te stylen*/
-  background-color: rgba(0, 167, 167, 0.931);
+  background-color: rgba(0, 167, 167, 0.931); /*dit is de kleur van de achtergrond*/
 }
 
 .binairstelsel-pagina .content p{ /*Dit is een aparte class om een element te stylen*/
-  background-color: black;
+  background-color: black; /*dit is de kleur van de achtergrond*/
   color: rgb(0, 167, 167); /*Dit is de kleur van de tekst*/
 }
 
 .binairstelsel-pagina .content h3{ /*Dit is een aparte class om een element te stylen*/
-  background-color: rgba(0, 133, 133, 0.931);
+  background-color: rgba(0, 133, 133, 0.931); /*dit is de kleur van de achtergrond*/
   color: black; /*Dit is de kleur van de tekst*/
 }
 
 .binairstelsel-pagina h1 { /*Dit is een aparte class om een element te stylen*/
   color: rgb(0, 133, 133); /*Dit is de kleur die de koptekst krijgt.*/
-  background-color: black;
-  text-align: center;
-  border-radius: 10px;
+  background-color: black; /*dit is de kleur van de achtergrond*/
+  text-align: center; /*Laat de tekst in het midden van de pagina staan*/
+  border-radius: 10px; /*Geeft de border ronde hoeken*/
 }
 
 .binairstelsel-pagina .mijnfooter { /*Dit is een aparte class om een element te stylen*/
-  background-color: rgba(0, 133, 133, 0.931);
+  background-color: rgba(0, 133, 133, 0.931); /*dit is de kleur van de achtergrond*/
   color: black; /*Dit is de kleur van de tekst*/
 }
 
@@ -337,17 +337,17 @@ img { /*dit past stylen op alle afbeeldingen toe, in dit geval dat alle hoeken r
 
 .RGB-pagina h1 { /*Dit is een aparte class om een element te stylen*/
   color: rgb(64,224,208); /*Dit is de kleur die de koptekst krijgt.*/
-  background-color: black;
-  text-align: center;
+  background-color: black; /*dit is de kleur van de achtergrond*/
+  text-align: center; /*Laat de tekst in het midden staan*/
 }
 
 .RGB-pagina .mijnfooter { /*Dit is een aparte class om een element te stylen*/
-  background-color: rgb(64,224,208);
+  background-color: rgb(64,224,208); /*dit is de kleur van de achtergrond*/
   color: rgb(0, 0, 0); /*Dit is de kleur van de tekst*/
 }
 
 .RGB-pagina .computerlink:link, .RGB-pagina .computerlink:visited { /*Dit is een aparte class om een element te stylen*/
-  background-color: rgb(64,224,208);
+  background-color: rgb(64,224,208); /*dit is de kleur van de achtergrond*/
   color: rgb(0, 0, 0); /*Dit is de kleur van de tekst*/
 }
   
