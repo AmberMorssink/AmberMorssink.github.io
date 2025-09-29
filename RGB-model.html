@@ -1,33 +1,34 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Het RGB-model</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="mystyle.css">
-    </head>
-<body class="RGB-pagina">
+    <head> <!--Dit is het head element-->
+        <title>Het RGB-model</title> <!-- dit is de titel die bovenaan het tabblad komt te staan -->
+        <meta charset="utf-8"> <!-- dit voorkomt rare tekens -->
+        <link rel="stylesheet" type="text/css" href="mystyle.css"> <!-- dit is de link naar mijn style bestand-->
+    </head> <!--Dit is het sluitende head element-->
+<body class="RGB-pagina"> <!--dit is het body element met een class (naam) om het makkelijker stijl te geven-->
 
-<div class="navbar">
- <a href="index.html">Home</a>
- <a href="binairestelsel.html">Binair stelsel</a>
- <a href="computers.html">Computers</a>
- <a href="compressie.html">Compressie</a>
- 
- <div class="dropdown">
-   <button class="dropbtn">Kleurmodellen</button>
-   <div class="dropdown-content">
-     <a href="RGB-model.html">RGB-model</a>
-     <a href="CMY-model.html">CMY-model</a>
-   </div>
- </div>
-</div>
+<body class="binairstelsel-pagina"> <!--dit is het body element met een class (naam) om het makkelijker stijl te geven-->
+<div class="navbar"> <!--dit is een aparte container voor mijn menu-->
+ <a href="index.html">Home</a> <!--dit is een link naar een andere pagina, hier dus naar home pagina-->
+ <a href="binairestelsel.html">Binair stelsel</a> <!--dit is een link naar een andere pagina, hier dus naar binair stelsel pagina-->
+ <a href="computers.html">Computers</a> <!--dit is een link naar een andere pagina, hier naar de computer pagina-->
+ <a href="compressie.html">Compressie</a> <!--dit is een link naar een andere pagina, hier naar compressie pagina-->
+ <div class="dropdown"> <!--dit is een container met de naam dropdown, om die makkelijk te stylen-->
+   <button class="dropbtn">Kleurmodellen <!--dit is een knop met de naam kleurmodellen-->
+     <i class="fa fa-caret-down"></i> <!--dit is een element voor iconen-->
+   </button> <!--dit is het sluiting element van mijn knop-->
+   <div class="dropdown-content"> <!--dit is een aparte container voor de linkjes naar mijn paginas die in het dropdown gedeelte van mijn menu komen-->
+     <a href="RGB-model.html">RGB-model</a> <!--dit is een link naar een andere pagina, hier dus naar de RGB model pagina-->
+     <a href="CMY-model.html">CMY-model</a> <!--dit is een link naar een andere pagina, hier dus naar CMY model pagina-->
+   </div> <!--dit is het sluiting element van mijn dropdown content container-->
+ </div> <!--dit is het sluiting element van mijn dropdown container-->
+</div> <!--dit is het sluiting element van de container van mijn menu-->
 
-
-<h1> Kleurmodellen - Het RBG-model </h1>
-<div class="content">
-<h3> Pixels </h3>
+<h1> Kleurmodellen - Het RBG-model </h1> <!--dit is het element voor een koptekst, de grootste-->
+<div class="content"> <!--dit is een aparte container voor content(mijn tekst)-->
+<h3> Pixels </h3> <!--dit is het element voor een kleinere koptekst-->
 <p> Pixels zijn kleine vierkante hokjes in een digitale afbeelding. Ze hebben allemaal een eigen, bepaalde kleur. Je kan ze zelf niet goed zien, tenzij je met een vergrootglas kijkt. Kleurmodellen worden gebruikt om licht dat op een camera valt op te slaan in pixels, als een digitaal beeld.</p>
-<h3>Resolutie</h3>
+<h3>Resolutie</h3> <!--dit is het element voor een kleinere koptekst-->
 
 <div class="RGB-afbeeldingen">
 <img src="turquoise.png" alt="kleur turqoise">
@@ -43,11 +44,11 @@
 </div>
 
 <h3>Overzicht van RGB en CMY model </h3>
-<p>Rood: RGB (255,0,0) -> CMY (0,255,255) <br>
-Blauw: RGB(0,0,255) -> CMY (255,255,0)<br>
-Oranje: RGB(255,128,0) -> CMY (0,127,255)<br>
-Magenta: RGB(255,0,255) -> CMY(0,255,0)<br>
-Grijs: RGB(128,128,128) -> CMY(127,127,127)</p>
+<p><span class="rood">Rood</span>: RGB (255,0,0) -> CMY (0,255,255)<br> <!--Met br komt de tekst op een nieuwe regel-->
+<span class="blauw">Blauw</span>: RGB(0,0,255) -> CMY (255,255,0)<br>
+<span class="oranje">Oranje</span>: RGB(255,128,0) -> CMY (0,127,255)<br>
+<span class="magenta">Magenta</span>: RGB(255,0,255) -> CMY(0,255,0)<br>
+<span class="grijs">Grijs</span>: RGB(128,128,128) -> CMY(127,127,127)</p>
 
 <div class="tekstinmidden">
 <h3> Klik op deze link om een uitleg video over pixels en resolutie te kijken! </h3>
