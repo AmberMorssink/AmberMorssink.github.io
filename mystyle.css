@@ -242,6 +242,7 @@ img {
 
 .content p {
   border-radius: 10px;
-  background-color: rgba(255, 204, 242, 0.456);
+  background-color: rgba(255, 204, 242, 0.814);
   width: 1000px;
+  box-shadow: 5px 5px 15px rgba(172, 172, 172, 0.2);
 }
