@@ -252,5 +252,5 @@ img {
   padding: 10px; /*Dit zorgt voor wat ruimte tussen de border en de tekst*/
   display: inline-block; /*Dit zorgt ervoor dat de breedte van mijn border niet groter wordt dan de tekst, dus geen ruimte overlaat*/
   width: auto;
-  color: rgb(255, 191, 239); /*De kleur van mijn tekst*/
+  color: rgb(255, 178, 236); /*De kleur van mijn tekst*/
 }
