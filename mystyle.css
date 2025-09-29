@@ -11,7 +11,7 @@ body {
 .navbar a, .dropbtn {
   flex: 1; /*Verdeelt de menu items gelijkmatig over de totale breedte van het menu*/
   font-size: 18px; /* De grootte van mijn text*/
-  color: rgb(255, 255, 255); /*Dit is de kleur van mijn tekst van het menu*/
+  color: rgb(0, 0, 0); /*Dit is de kleur van mijn tekst van het menu*/
   text-align: center; /* Dit zorgt ervoor dat de tekst in het midden komt te staan*/
   padding: 14px 16px;
   text-decoration: none; /*Zorgt ervoor dat de tekst niet onderstreept wordt*/
@@ -30,7 +30,7 @@ body {
   font-size: 16px;  
   border: none;
   outline: none;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   padding: 14px 16px;
   background-color: inherit;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -38,13 +38,13 @@ body {
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: rgb(0, 0, 0);
+  background-color: rgba(225, 227, 177, 0.713);
 }
 
 .dropdown-content {
   display: none;
   position: absolute; /*Zorgt voor geen extra ruimte*/
-  background-color: #4d4d4d;
+  background-color: rgba(252, 255, 198, 0.713);
   width: 100%;
   z-index: 1;
   flex-direction: column;
@@ -53,7 +53,7 @@ body {
 }
 
 .dropdown-content a {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   padding: 14px 16px;
   text-decoration: none;
   display: block;
