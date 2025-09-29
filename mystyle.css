@@ -170,12 +170,8 @@ img {
 
 .binairstelsel-pagina {
   background-image: url(Binair\ achtergrond.webp); /*Dit is de achtergrond afbeelding van de pagina*/
-  color:white; /*Dit is de kleur die alle tekst krijgt op de pagina*/
 }
 
-.binairstelsel-pagina h1 {
-  color: white; /*Dit is de kleur die de koptekst krijgt.*/
-}
 
 .RGB-pagina h1 {
   color: white; /*Dit is de kleur die de koptekst krijgt*/
@@ -287,6 +283,15 @@ img {
 }
 
 .binairstelsel-pagina .content h3{
+  background-color: rgba(0, 133, 133, 0.931);
+  color: black;
+}
+
+.binairstelsel-pagina h1 {
+  color: rgb(0, 133, 133); /*Dit is de kleur die de koptekst krijgt.*/
+}
+
+.binairstelsel-pagina .mijnfooter {
   background-color: rgba(0, 133, 133, 0.931);
   color: black;
 }
