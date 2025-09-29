@@ -153,6 +153,17 @@ img { /*dit past stylen op alle afbeeldingen toe, in dit geval dat alle hoeken r
   width:fit-content; /*laat elementen zo breed zijn dat dat de inhoud er normaal inpast*/
 }
 
+.netflix img {
+  width: 300px;
+  height:200px;
+}
+
+spotify img {
+  width: 200px;
+  height: 200px;
+}
+
+
 .mijnfooter { /*Dit is een aparte class om een element te stylen*/
   background-color: rgba(251, 255, 182, 0.791); /* Dit is de achtergrond kleur van mijn footer*/
   padding: 13px; /*Dit zorgt voor ruimte tussen de tekst en de rand.*/
