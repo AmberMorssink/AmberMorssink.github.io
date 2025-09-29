@@ -4,7 +4,7 @@ body {
 
 .navbar {
   display: flex;
-  background-color: rgb(254, 255, 230);
+  background-color: rgb(254, 255, 213);
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*dit is het lettertype*/
 }
 
