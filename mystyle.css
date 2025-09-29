@@ -294,6 +294,7 @@ img {
   display: inline-block; /*Dit zorgt ervoor dat de breedte van mijn border niet groter wordt dan de tekst, dus geen ruimte overlaat*/
   width: auto;
   background-color: black;
+  text-align: center;
 }
 
 .binairstelsel-pagina .mijnfooter {
