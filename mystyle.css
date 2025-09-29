@@ -85,7 +85,10 @@ h2 {
 
 p {
   margin-top: 0px; /*Dit zorgt voor geen extra ruimte boven de tekst*/
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif /*Hiermee bepaal je het lettertype*/
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*Hiermee bepaal je het lettertype*/
+  border-radius: 10px;
+  background-color: ghostwhite;
+  width: 600px;
 }
 
 h3 {
@@ -240,13 +243,3 @@ img {
   width: 300px; /*Dit is de breedte van mijn plaatje*/
 }
 
-.border {
-border-radius: 10px; 
-background-color: rgba(255, 0, 251, 0.253); 
-padding: 20px; 
-width: 800px;  
-}
-
-p.round1 {
-  border:
-}
