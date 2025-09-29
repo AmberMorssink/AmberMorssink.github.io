@@ -301,3 +301,14 @@ img {
   background-color: rgba(0, 133, 133, 0.931);
   color: black;
 }
+
+/*Hieronder aangepaste opmaak voor de pagina binair stelsel*/
+.RGB-pagina
+
+.RGB-pagina .navbar {
+  background-color:rgba(108, 108, 108, 0.931);
+}
+
+.RGB-pagina .navbar a, .RGB-pagina .dropbtn {
+  color: black;
+}
