@@ -82,7 +82,7 @@ h1 {
 
 
 h2 {
-  color:#111111; /*Dit bepaalt de kleur van mijn tekst*/
+  color:rgb(255, 178, 236); /*Dit bepaalt de kleur van mijn tekst*/
   text-align:center; /*Dit zorgt ervoor dat mijn tekst in het midden (center) gaat staan.*/
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*Hiermee bepaal je het lettertype*/
 }
