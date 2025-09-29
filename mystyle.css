@@ -75,7 +75,7 @@ body {
 }
 
 h1 {
-  color:#111111; /*Dit bepaalt de kleur van mijn tekst*/
+  color:rgb(255, 178, 236); /*Dit bepaalt de kleur van mijn tekst*/
   text-align:center; /*Dit laat mijn tekst in het midden (center) staan*/
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /*Hiermee bepaal je het lettertype*/
 }
@@ -253,4 +253,8 @@ img {
   display: inline-block; /*Dit zorgt ervoor dat de breedte van mijn border niet groter wordt dan de tekst, dus geen ruimte overlaat*/
   width: auto;
   color: rgb(255, 178, 236); /*De kleur van mijn tekst*/
+}
+
+.binairstelsel-pagina .navbar {
+  background-color:rgba(0, 133, 133, 0.698);
 }
