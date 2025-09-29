@@ -222,7 +222,7 @@ img {
 .lijst-binair img{
   float: right; /*Dit zorgt ervoor dat mijn plaatje rechts naast mijn tekst staat*/
   margin-left: 15px; /*Dit zorgt voor 15  pixels ruimte aan de linkerkant*/
-  height: 240px; /*Dit is de hoogte van mijn plaatje*/
+  height: 370px; /*Dit is de hoogte van mijn plaatje*/
   width: 300px; /*Dit is de breedte van mijn plaatje*/
 }
 
