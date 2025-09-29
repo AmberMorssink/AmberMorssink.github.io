@@ -326,8 +326,8 @@ img {
 }
 
 .RGB-pagina .content p{
-  background-color: rgba(108, 108, 108,);
-  color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.942);
+  color: rgb(166, 166, 166);
 }
 
 .RGB-pagina .content h3{
