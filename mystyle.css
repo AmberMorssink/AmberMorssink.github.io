@@ -289,6 +289,11 @@ img {
 
 .binairstelsel-pagina h1 {
   color: rgb(0, 133, 133); /*Dit is de kleur die de koptekst krijgt.*/
+  border-radius: 10px;
+  padding: 10px; /*Dit zorgt voor wat ruimte tussen de border en de tekst*/
+  display: inline-block; /*Dit zorgt ervoor dat de breedte van mijn border niet groter wordt dan de tekst, dus geen ruimte overlaat*/
+  width: auto;
+  background-color: black;
 }
 
 .binairstelsel-pagina .mijnfooter {
