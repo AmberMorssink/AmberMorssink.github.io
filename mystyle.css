@@ -119,7 +119,7 @@ img {
   margin-right: auto; /*Dit zorgt ervoor dat het in het midden staat*/
 }
 
-.plaatje-invoer-uitvoer img{
+.plaatje-invoeruitvoer img{
   float: right; /*Dit zorgt ervoor dat het plaatje rechts naast de tekst staat*/
   margin-left: 15px; /*Dit zorgt voor 15pixels ruimte aan de linkerkant*/
   width: 300px; /*Dit past de breedte, ofterwel width van mijn plaatje aan.*/
