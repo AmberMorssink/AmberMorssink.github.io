@@ -1,62 +1,77 @@
 <!DOCTYPE html>
+
 <html> <!-- dit is het html element -->
 
-<head> <!--Dit is het head element-->
-        <title>Binair stelsel</title> <!-- dit is de titel die bovenaan het tabblad komt te staan -->
-        <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="../mystyle.css"> <!-- dit is de link naar mijn style bestand-->
-</head> <!--Dit is het sluitende head element-->
-<body class="binairstelsel-pagina"> <!--dit is het body element met een class (naam) om het makkelijker stijl te geven-->
+ <head> <!--Dit is het head element-->
+  <title>Binair stelsel</title> <!-- dit is de titel die bovenaan het tabblad komt te staan -->
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="../mystyle.css"> <!-- dit is de link naar mijn style bestand-->
+ </head> <!--Dit is het sluitende head element-->
 
-<div class="navbar"> <!--dit is een aparte container voor mijn menu-->
- <a href="../index.html">Home</a> <!--dit is een link naar een andere pagina, hier dus naar home pagina-->
- <a href="binairestelsel.html">Binair stelsel</a> <!--dit is een link naar een andere pagina, hier dus naar binair stelsel pagina-->
- <a href="computers.html">Computers</a> <!--dit is een link naar een andere pagina, hier naar de computer pagina-->
- <a href="compressie.html">Compressie</a> <!--dit is een link naar een andere pagina, hier naar compressie pagina-->
- <div class="dropdown"> <!--dit is een container met de naam dropdown, om die makkelijk te stylen-->
-   <button class="dropbtn">Kleurmodellen <!--dit is een knop met de naam kleurmodellen-->
+ <body class="binairstelsel-pagina"> <!--dit is het body element met een class (naam) om het makkelijker stijl te geven-->
+
+  <div class="navbar"> <!--dit is een aparte container voor mijn menu-->
+   <a href="../index.html">Home</a> <!--dit is een link naar een andere pagina, hier dus naar home pagina-->
+   <a href="binairestelsel.html">Binair stelsel</a> <!--dit is een link naar een andere pagina, hier dus naar binair stelsel pagina-->
+   <a href="computers.html">Computers</a> <!--dit is een link naar een andere pagina, hier naar de computer pagina-->
+   <a href="compressie.html">Compressie</a> <!--dit is een link naar een andere pagina, hier naar compressie pagina-->
+  
+   <div class="dropdown"> <!--dit is een container met de naam dropdown, om die makkelijk te stylen-->
+    <button class="dropbtn">Kleurmodellen <!--dit is een knop met de naam kleurmodellen-->
      <i class="fa fa-caret-down"></i> <!--dit is een element voor iconen-->
-   </button> <!--dit is het sluiting element van mijn knop-->
-   <div class="dropdown-content"> <!--dit is een aparte container voor de linkjes naar mijn paginas die in het dropdown gedeelte van mijn menu komen-->
+    </button> <!--dit is het sluiting element van mijn knop-->
+   
+    <div class="dropdown-content"> <!--dit is een aparte container voor de linkjes naar mijn paginas die in het dropdown gedeelte van mijn menu komen-->
      <a href="RGB-model.html">RGB-model</a> <!--dit is een link naar een andere pagina, hier dus naar de RGB model pagina-->
      <a href="CMY-model.html">CMY-model</a> <!--dit is een link naar een andere pagina, hier dus naar CMY model pagina-->
-   </div> <!--dit is het sluiting element van mijn dropdown content container-->
- </div> <!--dit is het sluiting element van mijn dropdown container-->
-</div> <!--dit is het sluiting element van de container van mijn menu-->
+    </div> <!--dit is het sluiting element van mijn dropdown content container-->
+   </div> <!--dit is het sluiting element van mijn dropdown container-->
+  </div> <!--dit is het sluiting element van de container van mijn menu-->
 
-<h1> Binair stelsel </h1> <!--dit is het element voor een koptekst, de grootste-->
+  <h1> Binair stelsel </h1> <!--dit is het element voor een koptekst, de grootste-->
 
-<div class="content"> <!--dit is een aparte container voor content(mijn tekst)-->
- <h3> Wat is het binair stelsel? </h3> <!--dit is het element voor een kleinere koptekst-->
- <p> Normaal gebruiken we een tientallig getallenstelsel, maar een binair getallenstelsel wordt ook gebruikt, vooral computers werken ermee, daarom gebruiken we het in de informatica. Het binair stelsel is een stelsel dat bestaat uit een reeks van de cijfers 0 en 1. Het is dus een tweegetallenstelsel. Alle getallen schrijf je dus met een combinatie van die 2 getallen. Door de 0 en 1 in een bepaalde volgorde te zetten krijg je getallen. </p> <!--dit is het element voor een paragraaf tekst-->
+  <div class="content"> <!--dit is een aparte container voor content(mijn tekst)-->
+   <h3> Wat is het binair stelsel? </h3> <!--dit is het element voor een kleinere koptekst-->
  
- <div class="lijst-binair"> <!-- dit is een aparte container voor een afbeelding-->
-   <img src="../afbeeldingen/lijstje.binair.png" alt="Lijst van binaire getallen"> <!--dit is het element om een afbeelding toe te voegen, met een alternatieve tekst-->
- </div> <!--dit is het sluiting element voor mijn aparte container-->
+   <p> Normaal gebruiken we een tientallig getallenstelsel, maar een binair getallenstelsel wordt ook gebruikt, vooral computers werken ermee, daarom gebruiken we het in de informatica. Het binair stelsel is een stelsel dat bestaat uit een reeks van de cijfers 0 en 1. Het is dus een tweegetallenstelsel. Alle getallen schrijf je dus met een combinatie van die 2 getallen. Door de 0 en 1 in een bepaalde volgorde te zetten krijg je getallen. </p> <!--dit is het element voor een paragraaf tekst-->
  
- <h3> Bits en bytes </h3> <!--dit is het element voor een kleinere koptekst-->
- <p> De 1 en 0 die we in het binair stelsel gebruiken noemen we bits. Er worden vaak 8 bits gebruikt in een reeks (daarom is het hoogste getal 255). Die reeks (van de getallen 0 en 1) is een byte. De getallen zijn opgebouwd uit machten van 2. </p> <!--dit is het element voor een paragraaf tekst-->
- <h3> Positie van een bit </h3> <!--dit is het element voor een kleinere koptekst-->
- <p> De waarde van een bit wordt bepaald door zijn positie. Er wordt van rechts naar links gekeken, dus de bit die helemaal aan de rechterkant staat voor 2⁰, die links ervan 2¹, die links daarvan 2², enzovoort.</p> <!--dit is het element voor een paragraaf tekst-->
- <h3> Van binair naar decimaal rekenen </h3> <!--dit is het element voor een kleinere koptekst-->
- <p> Zo zet je een binair getal om naar een decimaal getal, met als voorbeeld het binaire getal 11010. Eerst begin je met de waarde berekenen van de meest rechtse bit (positie 0), dit is 0 x 2⁰ = 0. Daarna de waarde van die links ervan (positie 1), dit is 1 x 2¹ = 2. Daarna de waarde van die links daarvan (positie 2), dus 0 x 2² = 0. Dan die links ernaast (positie 3), dus 1 x 2³ = 8. Dan als laatst degene helemaal aan de linkerkant (positie 4), dit is 1 x 2⁴ = 16. Nu tel je de waarde van elk bit op, dit geeft 0 + 2 + 0 + 8 + 16 = 26. Dus het decimale getal is 26. </p> <!--dit is het element voor een paragraaf tekst-->
+   <div class="lijst-binair"> <!-- dit is een aparte container voor een afbeelding-->
+    <img src="../afbeeldingen/lijstje.binair.png" alt="Lijst van binaire getallen"> <!--dit is het element om een afbeelding toe te voegen, met een alternatieve tekst-->
+   </div> <!--dit is het sluiting element voor mijn aparte container-->
  
- <div class="ASCII-tabel"> <!-- dit is een aparte container voor een afbeelding-->
-   <img src="../afbeeldingen/ASCII.tabel.png" alt="ASCII tabel"> <!--dit is het element om een afbeelding toe te voegen, met een alternatieve tekst-->
- </div> <!--dit is het sluiting element voor mijn aparte container-->
+   <h3> Bits en bytes </h3> <!--dit is het element voor een kleinere koptekst-->
  
- <h3> Van decimaal naar binair rekenen </h3> <!--dit is het element voor een kleinere koptekst-->
- <p> Zo zet je een decimaal getal om naar een binair getal, met als voorbeeld het decimale getal 542. Je deelt het getal steeds door 0 en noteert de rest ervan. De rest noteer je dan weer van rechts naar links. 542:2 = 271, rest 0. 271 : 2 = 135 rest 1. 135:2= 67 rest 1. 67:2= 33 rest 1. 33:2= 16 rest 1. 16:2 = 8 rest 0. 8:2 = 4 rest 0. 4:2 = 2 rest 0. 2:2 = 1 rest 0. 1:2 = 0 rest 1. De rest opschrijven van rechts naar links geeft het binaire getal 100011110. </p> <!--dit is het element voor een paragraaf tekst-->
- <h3> ASCII </h3> <!--dit is het element voor een kleinere koptekst-->
- <p> Met behulp van ASCII krijgt elk teken een binaire code, waardoor computers informatie kunnen opslaan en manipuleren. In de ASCII tabel kun je zien hoe elk teken genoteerd wordt.</p> <!--dit is het element voor een paragraaf tekst-->
- <h1> Speel het binair spel! </h1> <!--dit is het element voor een koptekst, de grootste-->
+   <p> De 1 en 0 die we in het binair stelsel gebruiken noemen we bits. Er worden vaak 8 bits gebruikt in een reeks (daarom is het hoogste getal 255). Die reeks (van de getallen 0 en 1) is een byte. De getallen zijn opgebouwd uit machten van 2. </p> <!--dit is het element voor een paragraaf tekst-->
+ 
+   <h3> Positie van een bit </h3> <!--dit is het element voor een kleinere koptekst-->
+ 
+   <p> De waarde van een bit wordt bepaald door zijn positie. Er wordt van rechts naar links gekeken, dus de bit die helemaal aan de rechterkant staat voor 2⁰, die links ervan 2¹, die links daarvan 2², enzovoort.</p> <!--dit is het element voor een paragraaf tekst-->
+ 
+   <h3> Van binair naar decimaal rekenen </h3> <!--dit is het element voor een kleinere koptekst-->
+ 
+   <p> Zo zet je een binair getal om naar een decimaal getal, met als voorbeeld het binaire getal 11010. Eerst begin je met de waarde berekenen van de meest rechtse bit (positie 0), dit is 0 x 2⁰ = 0. Daarna de waarde van die links ervan (positie 1), dit is 1 x 2¹ = 2. Daarna de waarde van die links daarvan (positie 2), dus 0 x 2² = 0. Dan die links ernaast (positie 3), dus 1 x 2³ = 8. Dan als laatst degene helemaal aan de linkerkant (positie 4), dit is 1 x 2⁴ = 16. Nu tel je de waarde van elk bit op, dit geeft 0 + 2 + 0 + 8 + 16 = 26. Dus het decimale getal is 26. </p> <!--dit is het element voor een paragraaf tekst-->
+ 
+   <div class="ASCII-tabel"> <!-- dit is een aparte container voor een afbeelding-->
+    <img src="../afbeeldingen/ASCII.tabel.png" alt="ASCII tabel"> <!--dit is het element om een afbeelding toe te voegen, met een alternatieve tekst-->
+   </div> <!--dit is het sluiting element voor mijn aparte container-->
+ 
+   <h3> Van decimaal naar binair rekenen </h3> <!--dit is het element voor een kleinere koptekst-->
+ 
+   <p> Zo zet je een decimaal getal om naar een binair getal, met als voorbeeld het decimale getal 542. Je deelt het getal steeds door 0 en noteert de rest ervan. De rest noteer je dan weer van rechts naar links. 542:2 = 271, rest 0. 271 : 2 = 135 rest 1. 135:2= 67 rest 1. 67:2= 33 rest 1. 33:2= 16 rest 1. 16:2 = 8 rest 0. 8:2 = 4 rest 0. 4:2 = 2 rest 0. 2:2 = 1 rest 0. 1:2 = 0 rest 1. De rest opschrijven van rechts naar links geeft het binaire getal 100011110. </p> <!--dit is het element voor een paragraaf tekst-->
+ 
+   <h3> ASCII </h3> <!--dit is het element voor een kleinere koptekst-->
+ 
+   <p> Met behulp van ASCII krijgt elk teken een binaire code, waardoor computers informatie kunnen opslaan en manipuleren. In de ASCII tabel kun je zien hoe elk teken genoteerd wordt.</p> <!--dit is het element voor een paragraaf tekst-->
+ 
+   <h1> Speel het binair spel! </h1> <!--dit is het element voor een koptekst, de grootste-->
+   
    <iframe src="https://games.penjee.com/binary-bonanza/game.php" class="binair-spel" frameborder="no" scrolling="no" ></iframe> <!--dit is het element inline frame, dit zorgt ervoor dat de webpagina van het binary spel in mijn pagina komt.-->
-</div> <!--dit is het sluiting element voor mijn content container-->
+  </div> <!--dit is het sluiting element voor mijn content container-->
 
-<footer class="mijnfooter"> <!--dit is het element voor een footer-->
-  <p> © 2025 <br> Gemaakt door Amber Morssink, A5</p> <!--dit is het element voor een paragraaf tekst-->
-</footer> <!--dit is het sluiting element voor een footer-->
+  <footer class="mijnfooter"> <!--dit is het element voor een footer-->
+   <p> © 2025 <br> Gemaakt door Amber Morssink, A5</p> <!--dit is het element voor een paragraaf tekst-->
+  </footer> <!--dit is het sluiting element voor een footer-->
 
-</body> <!--dit is het sluiting element voor body-->
+ </body> <!--dit is het sluiting element voor body-->
 
 </html> <!--dit is het html element-->

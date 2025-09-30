@@ -1,48 +1,57 @@
 <!DOCTYPE html>
+
 <html> <!-- dit is het html element -->
-    <head> <!--Dit is het head element-->
-        <title>Het CMY-model</title> <!-- dit is de titel die bovenaan het tabblad komt te staan -->
-        <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="../mystyle.css"> <!-- dit is de link naar mijn style bestand-->
-    </head> <!--Dit is het sluitende head element-->
-       <body> <!--dit is het body element-->
+  <head> <!--Dit is het head element-->
+    <title>Het CMY-model</title> <!-- dit is de titel die bovenaan het tabblad komt te staan -->
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../mystyle.css"> <!-- dit is de link naar mijn style bestand-->
+  </head> <!--Dit is het sluitende head element-->
+  
+ <body> <!--dit is het body element-->
 
-<div class="navbar"> <!--dit is een aparte container voor mijn menu-->
- <a href="../index.html">Home</a> <!--dit is een link naar een andere pagina, hier dus naar home pagina-->
- <a href="binairestelsel.html">Binair stelsel</a> <!--dit is een link naar een andere pagina, hier dus naar binair stelsel pagina-->
- <a href="computers.html">Computers</a> <!--dit is een link naar een andere pagina, hier naar de computer pagina-->
- <a href="compressie.html">Compressie</a> <!--dit is een link naar een andere pagina, hier naar compressie pagina-->
- <div class="dropdown"> <!--dit is een container met de naam dropdown, om die makkelijk te stylen-->
-   <button class="dropbtn">Kleurmodellen <!--dit is een knop met de naam kleurmodellen-->
-     <i class="fa fa-caret-down"></i> <!--dit is een element voor iconen-->
-   </button> <!--dit is het sluiting element van mijn knop-->
-   <div class="dropdown-content"> <!--dit is een aparte container voor de linkjes naar mijn paginas die in het dropdown gedeelte van mijn menu komen-->
-     <a href="RGB-model.html">RGB-model</a> <!--dit is een link naar een andere pagina, hier dus naar de RGB model pagina-->
-     <a href="CMY-model.html">CMY-model</a> <!--dit is een link naar een andere pagina, hier dus naar CMY model pagina-->
-   </div> <!--dit is het sluiting element van mijn dropdown content container-->
- </div> <!--dit is het sluiting element van mijn dropdown container-->
-</div> <!--dit is het sluiting element van de container van mijn menu-->
-
-<h1> Kleurmodellen - Het CMY-model </h1> <!--dit is het element voor een koptekst, de grootste-->
-
-<div class="content"> <!--dit is een aparte container voor content(mijn tekst)-->
- <h3> Het CMY-model </h3> <!--dit is het element voor een kleinere koptekst-->
+  <div class="navbar"> <!--dit is een aparte container voor mijn menu-->
+   <a href="../index.html">Home</a> <!--dit is een link naar een andere pagina, hier dus naar home pagina-->
+   <a href="binairestelsel.html">Binair stelsel</a> <!--dit is een link naar een andere pagina, hier dus naar binair stelsel pagina-->
+   <a href="computers.html">Computers</a> <!--dit is een link naar een andere pagina, hier naar de computer pagina-->
+   <a href="compressie.html">Compressie</a> <!--dit is een link naar een andere pagina, hier naar compressie pagina-->
  
- <div class="CMYK-plaatje"> <!-- dit is een aparte container voor een afbeelding-->
-  <img src="../afbeeldingen/CMYK.model.png" alt="Afbeelding van het CMYK model"> <!--dit is het element om een afbeelding toe te voegen, met een alternatieve tekst-->
- </div> <!--dit is het sluiting element voor mijn aparte container-->
+   <div class="dropdown"> <!--dit is een container met de naam dropdown, om die makkelijk te stylen-->
+    <button class="dropbtn">Kleurmodellen <!--dit is een knop met de naam kleurmodellen-->
+     <i class="fa fa-caret-down"></i> <!--dit is een element voor iconen-->
+    </button> <!--dit is het sluiting element van mijn knop-->
+   
+    <div class="dropdown-content"> <!--dit is een aparte container voor de linkjes naar mijn paginas die in het dropdown gedeelte van mijn menu komen-->
+      <a href="RGB-model.html">RGB-model</a> <!--dit is een link naar een andere pagina, hier dus naar de RGB model pagina-->
+      <a href="CMY-model.html">CMY-model</a> <!--dit is een link naar een andere pagina, hier dus naar CMY model pagina-->
+    </div> <!--dit is het sluiting element van mijn dropdown content container-->
+   </div> <!--dit is het sluiting element van mijn dropdown container-->
+  </div> <!--dit is het sluiting element van de container van mijn menu-->
 
- <p> Dit model wordt gebruikt door printers. Hiermee drukken printers digitale bestanden af. De kleuren worden afgedrukt op een witte achtergrond, niet op een zwarte zoals bij het RGB-model. Hierbij worden de kleuren cyaan, magenta en geel gebruikt. Zwart kan alleen gemaakt worden doordat hij apart wordt toegevoegd (K), ofterwel het CMYK model. Zo worden er vaak 4 inktpatronen gebruikt.</p> <!--dit is het element voor een paragraaf tekst-->
- <h3>Overzicht van RGB en CMY model </h3> <!--dit is het element voor een kleinere koptekst-->
- <p><span class="rood">Rood</span>: RGB (255,0,0) -> CMY (0,255,255)<br> <!--Met br komt de tekst op een nieuwe regel--> <!--dit is het element voor een paragraaf tekst-->
- <span class="blauw">Blauw</span>: RGB(0,0,255) -> CMY (255,255,0)<br> <!--met span kan een klein stukje tekst worden veranderd--> <!--Met br komt de tekst op een nieuwe regel-->
- <span class="oranje">Oranje</span>: RGB(255,128,0) -> CMY (0,127,255)<br> <!--met span kan een klein stukje tekst worden veranderd--> <!--Met br komt de tekst op een nieuwe regel-->
- <span class="magenta">Magenta</span>: RGB(255,0,255) -> CMY(0,255,0)<br> <!--met span kan een klein stukje tekst worden veranderd--> <!--Met br komt de tekst op een nieuwe regel-->
- <span class="grijs">Grijs</span>: RGB(128,128,128) -> CMY(127,127,127)</p> <!--dit is het element voor een paragraaf tekst-->
-</div> <!--dit is het sluiting element voor mijn content container-->
+  <h1> Kleurmodellen - Het CMY-model </h1> <!--dit is het element voor een koptekst, de grootste-->
 
-<footer class="mijnfooter"> <!--dit is het element voor een footer-->
-  <p> © 2025 <br> Gemaakt door Amber Morssink, A5</p> <!--dit is het element voor een paragraaf tekst-->
-</footer> <!--dit is het sluiting element voor een footer-->
+  <div class="content"> <!--dit is een aparte container voor content(mijn tekst)-->
+   
+    <h3> Het CMY-model </h3> <!--dit is het element voor een kleinere koptekst-->
+ 
+   <div class="CMYK-plaatje"> <!-- dit is een aparte container voor een afbeelding-->
+    <img src="../afbeeldingen/CMYK.model.png" alt="Afbeelding van het CMYK model"> <!--dit is het element om een afbeelding toe te voegen, met een alternatieve tekst-->
+   </div> <!--dit is het sluiting element voor mijn aparte container-->
 
-</body> <!--dit is het sluiting element voor body-->
+   <p> Dit model wordt gebruikt door printers. Hiermee drukken printers digitale bestanden af. De kleuren worden afgedrukt op een witte achtergrond, niet op een zwarte zoals bij het RGB-model. Hierbij worden de kleuren cyaan, magenta en geel gebruikt. Zwart kan alleen gemaakt worden doordat hij apart wordt toegevoegd (K), ofterwel het CMYK model. Zo worden er vaak 4 inktpatronen gebruikt.</p> <!--dit is het element voor een paragraaf tekst-->
+   
+   <h3>Overzicht van RGB en CMY model </h3> <!--dit is het element voor een kleinere koptekst-->
+ 
+   <p><span class="rood">Rood</span>: RGB (255,0,0) -> CMY (0,255,255)<br> <!--Met br komt de tekst op een nieuwe regel--> <!--dit is het element voor een paragraaf tekst-->
+   <span class="blauw">Blauw</span>: RGB(0,0,255) -> CMY (255,255,0)<br> <!--met span kan een klein stukje tekst worden veranderd--> <!--Met br komt de tekst op een nieuwe regel-->
+   <span class="oranje">Oranje</span>: RGB(255,128,0) -> CMY (0,127,255)<br> <!--met span kan een klein stukje tekst worden veranderd--> <!--Met br komt de tekst op een nieuwe regel-->
+   <span class="magenta">Magenta</span>: RGB(255,0,255) -> CMY(0,255,0)<br> <!--met span kan een klein stukje tekst worden veranderd--> <!--Met br komt de tekst op een nieuwe regel-->
+   <span class="grijs">Grijs</span>: RGB(128,128,128) -> CMY(127,127,127)</p> <!--dit is het element voor een paragraaf tekst-->
+  </div> <!--dit is het sluiting element voor mijn content container-->
+
+  <footer class="mijnfooter"> <!--dit is het element voor een footer-->
+   <p> © 2025 <br> Gemaakt door Amber Morssink, A5</p> <!--dit is het element voor een paragraaf tekst-->
+  </footer> <!--dit is het sluiting element voor een footer-->
+
+ </body> <!--dit is het sluiting element voor body-->
+
+</html> <!--dit is het sluiting element voor html-->
