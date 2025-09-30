@@ -176,12 +176,12 @@ img { /*dit past stylen op alle afbeeldingen toe, in dit geval dat alle hoeken r
 }
 
 .RGB-pagina { /*Dit is een aparte class om een element te stylen*/
-  background-image: url("RGB.webp"); /*Dit is de afbeelding die op de achtergrond van mijn pagina komt.*/
+  background-image: url("afbeeldingen/RGB.webp"); /*Dit is de afbeelding die op de achtergrond van mijn pagina komt.*/
   color:white; /*Dit is de kleur die alle tekst krijgt op de pagina.*/
 }
 
 .binairstelsel-pagina { /*Dit is een aparte class om een element te stylen*/
- background-image: url(Binair-achtergrond.webp);/*Dit is de achtergrond afbeelding van de pagina*/
+ background-image: url(afbeeldingen/Binair-achtergrond.webp);/*Dit is de achtergrond afbeelding van de pagina*/
 }
 
 
