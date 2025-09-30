@@ -1,10 +1,13 @@
 <!DOCTYPE html> <!--dit geeft aan dat het een html bestand is-->
+
 <html> <!--dit is het html element-->
-    <head> <!--Dit is het head element-->
-        <title>Het RGB-model</title> <!-- dit is de titel die bovenaan het tabblad komt te staan -->
-        <meta charset="utf-8"> <!-- dit voorkomt rare tekens -->
-        <link rel="stylesheet" type="text/css" href="../mystyle.css"> <!-- dit is de link naar mijn style bestand-->
-    </head> <!--Dit is het sluitende head element-->
+
+ <head> <!--Dit is het head element-->
+  <title>Het RGB-model</title> <!-- dit is de titel die bovenaan het tabblad komt te staan -->
+  <meta charset="utf-8"> <!-- dit voorkomt rare tekens -->
+  <link rel="stylesheet" type="text/css" href="../mystyle.css"> <!-- dit is de link naar mijn style bestand-->
+ </head> <!--Dit is het sluitende head element-->
+
 <body class="RGB-pagina"> <!--dit is het body element met een class (naam) om het makkelijker stijl te geven-->
 
 <div class="navbar"> <!--dit is een aparte container voor mijn menu-->
@@ -12,10 +15,12 @@
  <a href="binairestelsel.html">Binair stelsel</a> <!--dit is een link naar een andere pagina, hier dus naar binair stelsel pagina-->
  <a href="computers.html">Computers</a> <!--dit is een link naar een andere pagina, hier naar de computer pagina-->
  <a href="compressie.html">Compressie</a> <!--dit is een link naar een andere pagina, hier naar compressie pagina-->
+ 
  <div class="dropdown"> <!--dit is een container met de naam dropdown, om die makkelijk te stylen-->
    <button class="dropbtn">Kleurmodellen <!--dit is een knop met de naam kleurmodellen-->
      <i class="fa fa-caret-down"></i> <!--dit is een element voor iconen-->
    </button> <!--dit is het sluiting element van mijn knop-->
+   
    <div class="dropdown-content"> <!--dit is een aparte container voor de linkjes naar mijn paginas die in het dropdown gedeelte van mijn menu komen-->
      <a href="RGB-model.html">RGB-model</a> <!--dit is een link naar een andere pagina, hier dus naar de RGB model pagina-->
      <a href="CMY-model.html">CMY-model</a> <!--dit is een link naar een andere pagina, hier dus naar CMY model pagina-->
@@ -24,35 +29,41 @@
 </div> <!--dit is het sluiting element van de container van mijn menu-->
 
 <h1> Kleurmodellen - Het RBG-model </h1> <!--dit is het element voor een koptekst, de grootste-->
+
 <div class="content"> <!--dit is een aparte container voor content(mijn tekst)-->
-<h3> Pixels </h3> <!--dit is het element voor een kleinere koptekst-->
-<p> Pixels zijn kleine vierkante hokjes in een digitale afbeelding. Ze hebben allemaal een eigen, bepaalde kleur. Je kan ze zelf niet goed zien, tenzij je met een vergrootglas kijkt. Kleurmodellen worden gebruikt om licht dat op een camera valt op te slaan in pixels, als een digitaal beeld.</p> <!--dit is het element voor een paragraaf tekst-->
-<h3>Resolutie</h3> <!--dit is het element voor een kleinere koptekst-->
 
-<div class="RGB-afbeeldingen"> <!-- dit is een aparte container voor een afbeelding-->
-<img src="../afbeeldingen/turquoise.png" alt="kleur turqoise"> <!--dit is het element om een afbeelding toe te voegen, met een alternatieve tekst-->
-</div> <!--dit is het sluiting element voor mijn aparte container-->
+ <h3> Pixels </h3> <!--dit is het element voor een kleinere koptekst-->
+ <p> Pixels zijn kleine vierkante hokjes in een digitale afbeelding. Ze hebben allemaal een eigen, bepaalde kleur. Je kan ze zelf niet goed zien, tenzij je met een vergrootglas kijkt. Kleurmodellen worden gebruikt om licht dat op een camera valt op te slaan in pixels, als een digitaal beeld.</p> <!--dit is het element voor een paragraaf tekst-->
+ <h3>Resolutie</h3> <!--dit is het element voor een kleinere koptekst-->
 
-<P>Resoluties geven aan hoeveel pixels er op een scherm passen. De waarde van rood, groen en blauw worden samen in een pixel opgeslagen in een bestand.</p> <!--dit is het element voor een paragraaf tekst-->
-<h3> Het RGB-model </h3> <!--dit is het element voor een kleinere koptekst-->
-<p> Dit model gebruiken we om kleuren digitaal te kunnen laten zien. Elke pixel op een scherm bestaat uit 3 lampjes; een rode, groene en blauwe. Als je ze feller of minder fel laat branden, kunnen alle kleuren op het scherm worden gemaakt. Het scherm is zwart als de lampjes uitstaan en alle kleuren samen geeft wit. Het RGB-model mengt hiervoor kleuren. Hierbij werkt de computer met decimale getallen van 0 t/m 255. 0 is heel donker en 255 is heel fel. De RGB waarde van bijvoorbeeld rood wordt dan zo genoteerd: (255,0,0). De computer zet ze om in binaire getallen. <!--dit is een stukje paragraaf tekst-->
-<br>De turquoise kleur op de afbeelding hiernaast heeft de RGB waarde (64,224,208).</p> <!--met br komt de tekst op een nieuwe regel-->
+ <div class="RGB-afbeeldingen"> <!-- dit is een aparte container voor een afbeelding-->
+  <img src="../afbeeldingen/turquoise.png" alt="kleur turqoise"> <!--dit is het element om een afbeelding toe te voegen, met een alternatieve tekst-->
+ </div> <!--dit is het sluiting element voor mijn aparte container-->
 
-<div class="RGB-model"> <!--dit is een aparte container voor mijn afbeelding-->
+ <P>Resoluties geven aan hoeveel pixels er op een scherm passen. De waarde van rood, groen en blauw worden samen in een pixel opgeslagen in een bestand.</p> <!--dit is het element voor een paragraaf tekst-->
+
+ <h3> Het RGB-model </h3> <!--dit is het element voor een kleinere koptekst-->
+
+ <p> Dit model gebruiken we om kleuren digitaal te kunnen laten zien. Elke pixel op een scherm bestaat uit 3 lampjes; een rode, groene en blauwe. Als je ze feller of minder fel laat branden, kunnen alle kleuren op het scherm worden gemaakt. Het scherm is zwart als de lampjes uitstaan en alle kleuren samen geeft wit. Het RGB-model mengt hiervoor kleuren. Hierbij werkt de computer met decimale getallen van 0 t/m 255. 0 is heel donker en 255 is heel fel. De RGB waarde van bijvoorbeeld rood wordt dan zo genoteerd: (255,0,0). De computer zet ze om in binaire getallen. <!--dit is een stukje paragraaf tekst-->
+ <br>De turquoise kleur op de afbeelding hiernaast heeft de RGB waarde (64,224,208).</p> <!--met br komt de tekst op een nieuwe regel-->
+
+ <div class="RGB-model"> <!--dit is een aparte container voor mijn afbeelding-->
   <img src="../afbeeldingen/RGB-plaatje.webp" alt="Afbeelding van het RGB model"> <!--dit is het element om een afbeelding toe te voegen, met een alternatieve tekst-->
-</div> <!--dit is het sluiting element voor mijn aparte container-->
+ </div> <!--dit is het sluiting element voor mijn aparte container-->
 
-<h3>Overzicht van RGB en CMY model </h3> <!--dit is het element voor een kleinere koptekst-->
-<p><span class="rood">Rood</span>: RGB (255,0,0) -> CMY (0,255,255)<br> <!--Met br komt de tekst op een nieuwe regel-->
-<span class="blauw">Blauw</span>: RGB(0,0,255) -> CMY (255,255,0)<br> <!--met span kan een klein stukje tekst worden veranderd-->
-<span class="oranje">Oranje</span>: RGB(255,128,0) -> CMY (0,127,255)<br> <!--hier wordt weer p, ofterwel paragraaf tekst gebruikt-->
-<span class="magenta">Magenta</span>: RGB(255,0,255) -> CMY(0,255,0)<br> <!--Met br komt de tekst op een nieuwe regel-->
-<span class="grijs">Grijs</span>: RGB(128,128,128) -> CMY(127,127,127)</p> <!--met span kan een klein stukje tekst worden veranderd-->
+ <h3>Overzicht van RGB en CMY model </h3> <!--dit is het element voor een kleinere koptekst-->
 
-<div class="tekstinmidden"> <!--dit is een aparte container om een stukje tekst te stylen-->
-<h3> Klik op deze link om een uitleg video over pixels en resolutie te kijken! </h3> <!--dit is het element voor een kleinere koptekst-->
-<a href="https://www.youtube.com/watch?v=3kz2GAof9tI" class="computerlink" target ="_blank">Pixels en resolutie</a> <!--dit is het element voor een linkje naar een video-->
-</div> <!--dit is het sluiting element voor mijn aparte containter van een stukje tekst-->
+ <p><span class="rood">Rood</span>: RGB (255,0,0) -> CMY (0,255,255)<br> <!--Met br komt de tekst op een nieuwe regel-->
+ <span class="blauw">Blauw</span>: RGB(0,0,255) -> CMY (255,255,0)<br> <!--met span kan een klein stukje tekst worden veranderd-->
+ <span class="oranje">Oranje</span>: RGB(255,128,0) -> CMY (0,127,255)<br> <!--hier wordt weer p, ofterwel paragraaf tekst gebruikt-->
+ <span class="magenta">Magenta</span>: RGB(255,0,255) -> CMY(0,255,0)<br> <!--Met br komt de tekst op een nieuwe regel-->
+ <span class="grijs">Grijs</span>: RGB(128,128,128) -> CMY(127,127,127)</p> <!--met span kan een klein stukje tekst worden veranderd-->
+
+ <div class="tekstinmidden"> <!--dit is een aparte container om een stukje tekst te stylen-->
+  <h3> Klik op deze link om een uitleg video over pixels en resolutie te kijken! </h3> <!--dit is het element voor een kleinere koptekst-->
+  <a href="https://www.youtube.com/watch?v=3kz2GAof9tI" class="computerlink" target ="_blank">Pixels en resolutie</a> <!--dit is het element voor een linkje naar een video-->
+ </div> <!--dit is het sluiting element voor mijn aparte containter van een stukje tekst-->
+
 </div> <!--dit is het sluiting element voor mijn content container-->
 
 <footer class="mijnfooter"> <!--dit is het element voor een footer-->
@@ -60,3 +71,5 @@
 </footer> <!--dit is het sluiting element voor een footer-->
 
 </body> <!--dit is het sluiting element voor body-->
+
+</html> <!--dit is het sluiting element van html-->
